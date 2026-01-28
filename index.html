@@ -243,6 +243,40 @@
             background: #e8e8e8;
         }
 
+        .btn-info {
+            background: #3498db;
+            color: white;
+        }
+
+        .btn-info:hover {
+            background: #2980b9;
+        }
+
+        .explanation-box {
+            background: #fffacd;
+            border-left: 5px solid #f39c12;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .explanation-box.show {
+            display: block;
+        }
+
+        .explanation-title {
+            font-weight: bold;
+            color: #f39c12;
+            margin-bottom: 8px;
+        }
+
+        .explanation-text {
+            color: #555;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
         .pagination {
             display: flex;
             gap: 5px;
@@ -337,6 +371,7 @@
 
                 <div class="button-group">
                     <button class="btn btn-primary" onclick="showAnswers()">Hiển Thị Đáp Án</button>
+                    <button class="btn btn-info" onclick="toggleExplanations()">📖 Giải Thích</button>
                     <button class="btn btn-secondary" onclick="resetQuestions()">Làm Lại</button>
                 </div>
             </div>
@@ -351,6 +386,7 @@
         const questionsPerPage = 5;
         let userAnswers = {};
         let answersShown = false;
+        let explanationsShown = false;
 
         // Load data
         async function loadData() {
@@ -493,6 +529,10 @@
                             }).join('')}
                         </div>
                         ${answersShown ? `<div class="answer-text show">✓ Đáp án đúng: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong></div>` : ''}
+                        ${q.explanation ? `<div class="explanation-box" id="exp-${category.id}-${q.id}">
+                            <div class="explanation-title">📖 Giải Thích:</div>
+                            <div class="explanation-text">${q.explanation}</div>
+                        </div>` : ''}
                     </div>
                 `;
             });
@@ -561,6 +601,10 @@
                             }).join('')}
                         </div>
                         ${answersShown ? `<div class="answer-text show">✓ Đáp án đúng: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong></div>` : ''}
+                        ${q.explanation ? `<div class="explanation-box" id="exp-all-${q.categoryId}-${q.id}">
+                            <div class="explanation-title">📖 Giải Thích:</div>
+                            <div class="explanation-text">${q.explanation}</div>
+                        </div>` : ''}
                     </div>
                 `;
             });
@@ -611,11 +655,27 @@
                 answersShown ? 'Ẩn Đáp Án' : 'Hiển Thị Đáp Án';
         }
 
+        function toggleExplanations() {
+            explanationsShown = !explanationsShown;
+            const explanationBoxes = document.querySelectorAll('.explanation-box');
+            explanationBoxes.forEach(box => {
+                if (explanationsShown) {
+                    box.classList.add('show');
+                } else {
+                    box.classList.remove('show');
+                }
+            });
+            document.querySelector('button[onclick="toggleExplanations()"]').textContent = 
+                explanationsShown ? '📖 Ẩn Giải Thích' : '📖 Giải Thích';
+        }
+
         function resetQuestions() {
             if (confirm('Bạn có chắc muốn làm lại? Tất cả đáp án sẽ bị xóa.')) {
                 userAnswers = {};
                 answersShown = false;
+                explanationsShown = false;
                 document.querySelector('button[onclick="showAnswers()"]').textContent = 'Hiển Thị Đáp Án';
+                document.querySelector('button[onclick="toggleExplanations()"]').textContent = '📖 Giải Thích';
                 const category = questionsData.find(c => c.id === currentCategory);
                 renderQuestions(category);
                 updateStats(category);
