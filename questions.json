@@ -13,7 +13,8 @@
             "To specify the features to be included in the software",
             "To outline the coding standards for the development team"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "A test plan is a comprehensive document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. It serves as a blueprint to conduct software testing activities as a defined process."
         },
         {
           "id": 2,
@@ -24,7 +25,8 @@
             "To document the software development process",
             "To design the user interface of the software"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "A test case is a detailed set of conditions and steps designed to verify whether the software functions correctly. It provides a documented approach to test the application and identify defects."
         },
         {
           "id": 3,
@@ -35,7 +37,8 @@
             "Acceptance testing",
             "Unit testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "Integration testing focuses on the data flow from one module to other modules, ensuring that different integrated units work together without errors."
         },
         {
           "id": 4,
@@ -46,7 +49,8 @@
             "To check the performance of the software under stress",
             "To verify that the software meets specific business requirements"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "Usability testing evaluates the software's user interface and overall user experience to ensure it is user-friendly and meets customer expectations."
         },
         {
           "id": 5,
@@ -57,7 +61,8 @@
             "The process of maintaining software",
             "The process of creating software"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "Software testing is the process of finding bugs or errors in software by checking whether the actual software product matches expected requirements."
         },
         {
           "id": 6,
@@ -68,7 +73,8 @@
             "Performance testing",
             "Unit testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "Regression testing ensures that the software works correctly after changes are made, preventing new bugs from being introduced by modifications."
         },
         {
           "id": 7,
@@ -79,7 +85,8 @@
             "Static testing is performed by developers, and dynamic testing is performed by testers",
             "There is no difference between static testing and dynamic testing"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "Static testing is performed before coding through reviews and inspections, while dynamic testing is performed after coding by executing the software."
         },
         {
           "id": 8,
@@ -90,7 +97,8 @@
             "Only after the software is deployed",
             "During the requirements gathering phase"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "Early testing, as defined in the 7 Principles of Software Testing, means testing should begin during the requirements gathering phase to catch defects early when they are cheaper to fix."
         },
         {
           "id": 9,
@@ -101,7 +109,8 @@
             "Maximizing the development team's coding speed",
             "Ensuring that the software meets requirements"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "The primary goals of software testing are ensuring reliability, finding defects, and verifying requirements. Maximizing coding speed is not a testing goal."
         },
         {
           "id": 10,
@@ -112,7 +121,8 @@
             "It is faster than manual testing",
             "All of the above"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "Automated testing can perform complex tests that are difficult for humans, is more accurate and repeatable, and is faster than manual testing."
         }
       ]
     },
@@ -129,7 +139,8 @@
             "Test Design",
             "Test Execution"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "Test Design phase involves creating test scripts, test cases, and preparing test data that will be executed during the Test Execution phase."
         },
         {
           "id": 2,
@@ -140,7 +151,8 @@
             "Test Design",
             "Test Execution"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "Test Planning is the first phase of STLC where the scope, objectives, resources, schedule, and overall testing strategy are defined."
         },
         {
           "id": 3,
@@ -151,7 +163,8 @@
             "Test Closure",
             "Test Design"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "Test Design phase involves developing test cases based on software requirements, creating detailed test scenarios and scripts."
         },
         {
           "id": 4,
@@ -162,7 +175,8 @@
             "Test Execution",
             "Test Planning"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "Refer to the software testing fundamentals and best practices."
         },
         {
           "id": 5,
@@ -173,7 +187,8 @@
             "Test Closure",
             "Test Execution"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "Refer to the software testing fundamentals and best practices."
         },
         {
           "id": 6,
@@ -184,7 +199,8 @@
             "To execute test cases",
             "To plan the testing activities"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "Refer to the software testing fundamentals and best practices."
         },
         {
           "id": 7,
@@ -195,7 +211,8 @@
             "To formally close the testing activities",
             "To execute test cases"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "Refer to the software testing fundamentals and best practices."
         },
         {
           "id": 8,
@@ -206,7 +223,8 @@
             "Test Design",
             "Test Planning"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "Refer to the software testing fundamentals and best practices."
         },
         {
           "id": 9,
@@ -217,7 +235,8 @@
             "Test Execution",
             "Test Closure"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "Refer to the software testing fundamentals and best practices."
         },
         {
           "id": 10,
@@ -228,7 +247,8 @@
             "Test Design",
             "Test Closure"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "Refer to the software testing fundamentals and best practices."
         }
       ]
     },
