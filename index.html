@@ -347,6 +347,7 @@
         let questionsData = [];
         let currentCategory = null;
         let currentPage = 1;
+        let allQuestionsShuffled = []; // Store shuffled all questions
         const questionsPerPage = 5;
         let userAnswers = {};
         let answersShown = false;
@@ -372,9 +373,61 @@
             }
         }
 
+        // Fisher-Yates shuffle algorithm
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        function showAllCategories() {
+            // Combine all questions from all categories with shuffling
+            let allQuestions = [];
+            questionsData.forEach(category => {
+                category.questions.forEach(question => {
+                    allQuestions.push({
+                        ...question,
+                        categoryId: category.id,
+                        categoryName: category.name
+                    });
+                });
+            });
+            
+            // Shuffle all questions
+            allQuestionsShuffled = shuffleArray(allQuestions);
+            
+            document.querySelector('.category-title').textContent = '🎯 Ôn Tập Toàn Bộ (Lộn Xộn)';
+            renderAllQuestions(allQuestionsShuffled);
+            updateStatsAllCategories(allQuestionsShuffled);
+        }
+
         function renderCategories() {
             const categoryList = document.getElementById('categoryList');
             categoryList.innerHTML = '';
+            
+            // Button "Ôn Toàn Bộ" (Review All)
+            const allBtn = document.createElement('button');
+            allBtn.className = 'category-btn' + (currentCategory === 'all' ? ' active' : '');
+            allBtn.textContent = '🎯 Ôn Toàn Bộ (Lộn Xộn)';
+            allBtn.onclick = () => {
+                currentCategory = 'all';
+                currentPage = 1;
+                answersShown = false;
+                showAllCategories();
+                renderCategories();
+            };
+            categoryList.appendChild(allBtn);
+            
+            // Separator
+            const separator = document.createElement('div');
+            separator.style.height = '1px';
+            separator.style.background = '#ddd';
+            separator.style.margin = '10px 0';
+            categoryList.appendChild(separator);
+            
             questionsData.forEach(category => {
                 const btn = document.createElement('button');
                 btn.className = 'category-btn' + (currentCategory === category.id ? ' active' : '');
@@ -395,8 +448,15 @@
             if (!category) return;
 
             document.querySelector('.category-title').textContent = category.name;
-            renderQuestions(category);
-            updateStats(category);
+            
+            // Shuffle questions
+            const shuffledCategory = {
+                ...category,
+                questions: shuffleArray(category.questions)
+            };
+            
+            renderQuestions(shuffledCategory);
+            updateStats(shuffledCategory);
         }
 
         function renderQuestions(category) {
@@ -454,10 +514,77 @@
             pagination.innerHTML = html;
         }
 
+        function renderPaginationAll(allQuestions) {
+            const pagination = document.getElementById('pagination');
+            const totalPages = Math.ceil(allQuestions.length / questionsPerPage);
+            let html = '';
+
+            for (let i = 1; i <= totalPages; i++) {
+                const btnClass = i === currentPage ? 'page-btn active' : 'page-btn';
+                html += `<button class="${btnClass}" onclick="goToPageAll(${i})">${i}</button>`;
+            }
+
+            pagination.innerHTML = html;
+        }
+
+        function renderAllQuestions(allQuestions) {
+            const container = document.getElementById('questionsContainer');
+            const start = (currentPage - 1) * questionsPerPage;
+            const end = start + questionsPerPage;
+            const questions = allQuestions.slice(start, end);
+
+            let html = '';
+            questions.forEach((q, index) => {
+                const globalIndex = start + index + 1;
+                const answered = userAnswers[`${q.categoryId}_${q.id}`] !== undefined;
+                const selectedAnswer = userAnswers[`${q.categoryId}_${q.id}`];
+                
+                html += `
+                    <div class="question-card">
+                        <div class="question-number">Câu ${globalIndex} - <em>${q.categoryName}</em></div>
+                        <div class="question-text">${q.question}</div>
+                        <div class="options">
+                            ${q.options.map((opt, idx) => {
+                                let optClass = 'option';
+                                if (answersShown) {
+                                    if (idx === q.correct) {
+                                        optClass += ' correct';
+                                    } else if (selectedAnswer === idx) {
+                                        optClass += ' incorrect';
+                                    }
+                                } else if (selectedAnswer === idx) {
+                                    optClass += ' selected';
+                                }
+                                return `<div class="${optClass}" onclick="selectAnswer(${q.categoryId}, ${q.id}, ${idx}, this)">
+                                    <strong>${String.fromCharCode(65 + idx)}.</strong> ${opt}
+                                </div>`;
+                            }).join('')}
+                        </div>
+                        ${answersShown ? `<div class="answer-text show">✓ Đáp án đúng: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong></div>` : ''}
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+            renderPaginationAll(allQuestions);
+        }
+
         function goToPage(page) {
             currentPage = page;
             const category = questionsData.find(c => c.id === currentCategory);
-            renderQuestions(category);
+            if (category) {
+                const shuffledCategory = {
+                    ...category,
+                    questions: shuffleArray(category.questions)
+                };
+                renderQuestions(shuffledCategory);
+            }
+            document.querySelector('.content').scrollTop = 0;
+        }
+
+        function goToPageAll(page) {
+            currentPage = page;
+            renderAllQuestions(allQuestionsShuffled);
             document.querySelector('.content').scrollTop = 0;
         }
 
@@ -511,6 +638,39 @@
 
             const percentage = answered > 0 ? Math.round((correct / answered) * 100) : 0;
             const total = category.questions.length;
+
+            document.getElementById('stats').innerHTML = `
+                <div class="stat-box">
+                    <div class="stat-number">${answered}/${total}</div>
+                    <div class="stat-label">Câu Trả Lời</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">${correct}/${answered || 1}</div>
+                    <div class="stat-label">Câu Đúng</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">${percentage}%</div>
+                    <div class="stat-label">Tỷ Lệ Đúng</div>
+                </div>
+            `;
+        }
+
+        function updateStatsAllCategories(allQuestions) {
+            let correct = 0;
+            let answered = 0;
+
+            allQuestions.forEach(q => {
+                const key = `${q.categoryId}_${q.id}`;
+                if (userAnswers[key] !== undefined) {
+                    answered++;
+                    if (userAnswers[key] === q.correct) {
+                        correct++;
+                    }
+                }
+            });
+
+            const percentage = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+            const total = allQuestions.length;
 
             document.getElementById('stats').innerHTML = `
                 <div class="stat-box">
