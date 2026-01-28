@@ -277,6 +277,90 @@
             font-size: 14px;
         }
 
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .modal.show {
+            display: block;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 900px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 15px;
+        }
+
+        .modal-header h2 {
+            color: #667eea;
+            margin: 0;
+        }
+
+        .close-btn {
+            font-size: 28px;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+            border: none;
+            background: none;
+            padding: 0;
+        }
+
+        .close-btn:hover {
+            color: #000;
+        }
+
+        .knowledge-section {
+            margin-bottom: 25px;
+        }
+
+        .knowledge-section h3 {
+            color: #667eea;
+            margin-top: 0;
+            font-size: 18px;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+
+        .knowledge-section ul {
+            margin-left: 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .knowledge-section li {
+            margin-bottom: 10px;
+        }
+
+        .knowledge-content {
+            color: #555;
+            line-height: 1.8;
+            font-size: 14px;
+        }
+
         .pagination {
             display: flex;
             gap: 5px;
@@ -357,6 +441,7 @@
         <div class="main-content">
             <div class="sidebar">
                 <input type="text" class="search-box" id="searchBox" placeholder="Tìm kiếm...">
+                <button class="btn btn-info" style="width: 100%; margin-bottom: 15px;" onclick="openKnowledgeModal()">📚 Toàn Bộ Kiến Thức</button>
                 <h3>📂 Chủ Đề</h3>
                 <div id="categoryList"></div>
             </div>
@@ -378,11 +463,24 @@
         </div>
     </div>
 
+    <!-- Knowledge Modal -->
+    <div id="knowledgeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Toàn Bộ Kiến Thức</h2>
+                <button class="close-btn" onclick="closeKnowledgeModal()">&times;</button>
+            </div>
+            <div id="knowledgeContent" class="knowledge-content"></div>
+        </div>
+    </div>
+
     <script>
         let questionsData = [];
+        let knowledgeData = [];
         let currentCategory = null;
         let currentPage = 1;
         let allQuestionsShuffled = []; // Store shuffled all questions
+        let currentCategoryQuestions = []; // Store current category's shuffled questions
         const questionsPerPage = 5;
         let userAnswers = {};
         let answersShown = false;
@@ -391,13 +489,19 @@
         // Load data
         async function loadData() {
             try {
-                const response = await fetch('questions.json');
-                const data = await response.json();
-                questionsData = data.categories;
+                const [questionsResponse, knowledgeResponse] = await Promise.all([
+                    fetch('questions.json'),
+                    fetch('knowledge.json')
+                ]);
+                const questionsDataRaw = await questionsResponse.json();
+                const knowledgeDataRaw = await knowledgeResponse.json();
+                
+                questionsData = questionsDataRaw.categories;
+                knowledgeData = knowledgeDataRaw.categories;
                 initializeUI();
             } catch (error) {
                 document.getElementById('questionsContainer').innerHTML = 
-                    '<p style="color: red;">Lỗi khi tải dữ liệu. Vui lòng kiểm tra file questions.json</p>';
+                    '<p style="color: red;">Lỗi khi tải dữ liệu. Vui lòng kiểm tra file questions.json và knowledge.json</p>';
             }
         }
 
@@ -485,21 +589,22 @@
 
             document.querySelector('.category-title').textContent = category.name;
             
-            // Shuffle questions
-            const shuffledCategory = {
-                ...category,
-                questions: shuffleArray(category.questions)
-            };
+            // Shuffle questions only once per category load
+            currentCategoryQuestions = shuffleArray(category.questions);
+            currentPage = 1;
+            answersShown = false;
+            explanationsShown = false;
+            userAnswers = {};
             
-            renderQuestions(shuffledCategory);
-            updateStats(shuffledCategory);
+            renderQuestions(category);
+            updateStats(category);
         }
 
         function renderQuestions(category) {
             const container = document.getElementById('questionsContainer');
             const start = (currentPage - 1) * questionsPerPage;
             const end = start + questionsPerPage;
-            const questions = category.questions.slice(start, end);
+            const questions = currentCategoryQuestions.slice(start, end);
 
             let html = '';
             questions.forEach((q, index) => {
@@ -543,7 +648,7 @@
 
         function renderPagination(category) {
             const pagination = document.getElementById('pagination');
-            const totalPages = Math.ceil(category.questions.length / questionsPerPage);
+            const totalPages = Math.ceil(currentCategoryQuestions.length / questionsPerPage);
             let html = '';
 
             for (let i = 1; i <= totalPages; i++) {
@@ -617,11 +722,7 @@
             currentPage = page;
             const category = questionsData.find(c => c.id === currentCategory);
             if (category) {
-                const shuffledCategory = {
-                    ...category,
-                    questions: shuffleArray(category.questions)
-                };
-                renderQuestions(shuffledCategory);
+                renderQuestions(category);
             }
             document.querySelector('.content').scrollTop = 0;
         }
@@ -670,15 +771,20 @@
         }
 
         function resetQuestions() {
-            if (confirm('Bạn có chắc muốn làm lại? Tất cả đáp án sẽ bị xóa.')) {
+            if (confirm('Bạn có chắc muốn làm lại? Tất cả đáp án sẽ bị xóa và câu hỏi sẽ được xáo trộn lại.')) {
                 userAnswers = {};
                 answersShown = false;
                 explanationsShown = false;
                 document.querySelector('button[onclick="showAnswers()"]').textContent = 'Hiển Thị Đáp Án';
                 document.querySelector('button[onclick="toggleExplanations()"]').textContent = '📖 Giải Thích';
                 const category = questionsData.find(c => c.id === currentCategory);
-                renderQuestions(category);
-                updateStats(category);
+                if (category) {
+                    // Shuffle questions again when reset
+                    currentCategoryQuestions = shuffleArray(category.questions);
+                    currentPage = 1;
+                    renderQuestions(category);
+                    updateStats(category);
+                }
             }
         }
 
@@ -686,7 +792,7 @@
             let correct = 0;
             let answered = 0;
 
-            category.questions.forEach(q => {
+            currentCategoryQuestions.forEach(q => {
                 const key = `${category.id}_${q.id}`;
                 if (userAnswers[key] !== undefined) {
                     answered++;
@@ -697,7 +803,7 @@
             });
 
             const percentage = answered > 0 ? Math.round((correct / answered) * 100) : 0;
-            const total = category.questions.length;
+            const total = currentCategoryQuestions.length;
 
             document.getElementById('stats').innerHTML = `
                 <div class="stat-box">
@@ -746,6 +852,285 @@
                     <div class="stat-label">Tỷ Lệ Đúng</div>
                 </div>
             `;
+        }
+
+        function openKnowledgeModal() {
+            const modal = document.getElementById('knowledgeModal');
+            
+            // Chỉ cho phép mở knowledge modal khi đang học một chủ đề cụ thể, không phải "Ôn Toàn Bộ"
+            if (currentCategory === 'all') {
+                alert('Vui lòng chọn một chủ đề cụ thể để xem kiến thức chi tiết');
+                return;
+            }
+            
+            const knowledge = knowledgeData.find(k => k.id === currentCategory);
+            
+            if (knowledge && knowledge.knowledge) {
+                const knowledgeInfo = knowledge.knowledge;
+                document.getElementById('modalTitle').textContent = knowledgeInfo.title;
+                
+                let html = '';
+                
+                // Overview
+                if (knowledgeInfo.overview) {
+                    html += `<div class="knowledge-section">
+                        <h3>📌 Tổng Quan</h3>
+                        <p>${knowledgeInfo.overview}</p>
+                    </div>`;
+                }
+                
+                // Definition
+                if (knowledgeInfo.definition) {
+                    html += `<div class="knowledge-section">
+                        <h3>📖 Định Nghĩa</h3>
+                        <p>${knowledgeInfo.definition}</p>
+                    </div>`;
+                }
+                
+                // 7 Principles
+                if (knowledgeInfo['7Principles']) {
+                    html += `<div class="knowledge-section">
+                        <h3>✨ 7 Nguyên Tắc</h3>
+                        <ul>
+                            ${knowledgeInfo['7Principles'].map(p => `<li>${p}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Importance
+                if (knowledgeInfo.importance) {
+                    html += `<div class="knowledge-section">
+                        <h3>💡 Tầm Quan Trọng</h3>
+                        <ul>
+                            ${knowledgeInfo.importance.map(i => `<li>${i}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Types
+                if (knowledgeInfo.types) {
+                    html += `<div class="knowledge-section">
+                        <h3>🔍 Các Loại</h3>
+                        ${Object.entries(knowledgeInfo.types).map(([key, value]) => 
+                            `<p><strong>${capitalizeFirst(key)}:</strong> ${value}</p>`
+                        ).join('')}
+                    </div>`;
+                }
+                
+                // Phases
+                if (knowledgeInfo.phases) {
+                    html += `<div class="knowledge-section">
+                        <h3>📋 Các Giai Đoạn</h3>
+                        <ul>
+                            ${knowledgeInfo.phases.map(p => `<li>${p}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Levels
+                if (knowledgeInfo.levels) {
+                    html += `<div class="knowledge-section">
+                        <h3>🎯 Các Cấp Độ</h3>
+                        ${knowledgeInfo.levels.map(level => `
+                            <div style="margin-bottom: 15px;">
+                                <p><strong>${level.name}:</strong> ${level.description}</p>
+                                <p style="font-size: 13px; color: #888; margin-left: 20px;">Mục đích: ${level.purpose}</p>
+                            </div>
+                        `).join('')}
+                    </div>`;
+                }
+                
+                // Unit Testing Importance
+                if (knowledgeInfo.unitTestingImportance) {
+                    html += `<div class="knowledge-section">
+                        <h3>✅ Tầm Quan Trọng Unit Testing</h3>
+                        <ul>
+                            ${knowledgeInfo.unitTestingImportance.map(u => `<li>${u}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Components
+                if (knowledgeInfo.components) {
+                    html += `<div class="knowledge-section">
+                        <h3>🔧 Thành Phần</h3>
+                        <ul>
+                            ${knowledgeInfo.components.map(c => `<li>${c}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Estimation Techniques
+                if (knowledgeInfo.estimationTechniques) {
+                    html += `<div class="knowledge-section">
+                        <h3>📊 Kỹ Thuật Ước Tính</h3>
+                        <ul>
+                            ${knowledgeInfo.estimationTechniques.map(t => `<li>${t}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Factors
+                if (knowledgeInfo.factors) {
+                    html += `<div class="knowledge-section">
+                        <h3>🎲 Các Yếu Tố</h3>
+                        <ul>
+                            ${knowledgeInfo.factors.map(f => `<li>${f}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Test Case Definition
+                if (knowledgeInfo.testCaseDefinition) {
+                    html += `<div class="knowledge-section">
+                        <h3>📝 Test Case Definition</h3>
+                        <p>${knowledgeInfo.testCaseDefinition}</p>
+                    </div>`;
+                }
+                
+                // Components (Test Case)
+                if (knowledgeInfo.components) {
+                    html += `<div class="knowledge-section">
+                        <h3>🔍 Các Thành Phần</h3>
+                        <ul>
+                            ${knowledgeInfo.components.map(c => `<li>${c}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Execution Process
+                if (knowledgeInfo.executionProcess) {
+                    html += `<div class="knowledge-section">
+                        <h3>▶️ Quy Trình Thực Hiện</h3>
+                        <ul>
+                            ${knowledgeInfo.executionProcess.map(e => `<li>${e}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Best Practices
+                if (knowledgeInfo.bestPractices) {
+                    html += `<div class="knowledge-section">
+                        <h3>⭐ Thực Hành Tốt Nhất</h3>
+                        <ul>
+                            ${knowledgeInfo.bestPractices.map(b => `<li>${b}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Testing Approaches
+                if (knowledgeInfo.approaches) {
+                    html += `<div class="knowledge-section">
+                        <h3>🔄 Các Phương Pháp Tiếp Cận</h3>
+                        ${knowledgeInfo.approaches.map(a => `
+                            <p><strong>${a.name}:</strong> ${a.description}</p>
+                        `).join('')}
+                    </div>`;
+                }
+                
+                // Testing Techniques
+                if (knowledgeInfo.testingTechniques) {
+                    html += `<div class="knowledge-section">
+                        <h3>🛠️ Kỹ Thuật Testing</h3>
+                        <ul>
+                            ${knowledgeInfo.testingTechniques.map(t => `<li>${t}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Advantages & Disadvantages
+                if (knowledgeInfo.advantages) {
+                    html += `<div class="knowledge-section">
+                        <h3>✅ Lợi Ích</h3>
+                        <ul>
+                            ${knowledgeInfo.advantages.map(a => `<li>${a}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Report Contents
+                if (knowledgeInfo.reportContents) {
+                    html += `<div class="knowledge-section">
+                        <h3>📄 Nội Dung Report</h3>
+                        <ul>
+                            ${knowledgeInfo.reportContents.map(r => `<li>${r}</li>`).join('')}
+                        </ul>
+                    </div>`;
+                }
+                
+                // Severity
+                if (knowledgeInfo.severity) {
+                    html += `<div class="knowledge-section">
+                        <h3>⚠️ Mức Độ Nghiêm Trọng</h3>
+                        ${Object.entries(knowledgeInfo.severity).map(([key, value]) => 
+                            `<p><strong>${capitalizeFirst(key)}:</strong> ${value}</p>`
+                        ).join('')}
+                    </div>`;
+                }
+                
+                // Use Case Testing
+                if (knowledgeInfo.useCaseTesting) {
+                    html += renderObjectSection('Use Case Testing', knowledgeInfo.useCaseTesting);
+                }
+                
+                // GUI Testing
+                if (knowledgeInfo.guiTesting) {
+                    html += renderObjectSection('GUI Testing', knowledgeInfo.guiTesting);
+                }
+                
+                // Decision Table Testing
+                if (knowledgeInfo.decisionTableTesting) {
+                    html += renderObjectSection('Decision Table Testing', knowledgeInfo.decisionTableTesting);
+                }
+                
+                // State Transition Testing
+                if (knowledgeInfo.stateTransitionTesting) {
+                    html += renderObjectSection('State Transition Testing', knowledgeInfo.stateTransitionTesting);
+                }
+                
+                document.getElementById('knowledgeContent').innerHTML = html;
+                modal.classList.add('show');
+            } else {
+                alert('Kiến thức không khả dụng cho chủ đề này');
+            }
+        }
+
+        function renderObjectSection(title, obj) {
+            let html = `<div class="knowledge-section"><h3>${title}</h3>`;
+            for (let [key, value] of Object.entries(obj)) {
+                if (typeof value === 'string') {
+                    html += `<p><strong>${capitalizeFirst(key)}:</strong> ${value}</p>`;
+                } else if (Array.isArray(value)) {
+                    html += `<p style="font-weight: bold; margin-top: 10px;">${capitalizeFirst(key)}:</p>
+                    <ul>`;
+                    value.forEach(item => {
+                        if (typeof item === 'string') {
+                            html += `<li>${item}</li>`;
+                        } else {
+                            html += `<li>${JSON.stringify(item)}</li>`;
+                        }
+                    });
+                    html += `</ul>`;
+                }
+            }
+            html += `</div>`;
+            return html;
+        }
+
+        function capitalizeFirst(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        function closeKnowledgeModal() {
+            document.getElementById('knowledgeModal').classList.remove('show');
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('knowledgeModal');
+            if (event.target === modal) {
+                modal.classList.remove('show');
+            }
         }
 
         // Initialize
