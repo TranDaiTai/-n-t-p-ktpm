@@ -634,7 +634,7 @@
                             }).join('')}
                         </div>
                         ${answersShown ? `<div class="answer-text show">✓ Đáp án đúng: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong></div>` : ''}
-                        ${q.explanation ? `<div class="explanation-box" id="exp-${category.id}-${q.id}">
+                        ${q.explanation ? `<div class="explanation-box${explanationsShown ? ' show' : ''}" id="exp-${category.id}-${q.id}">
                             <div class="explanation-title">📖 Giải Thích:</div>
                             <div class="explanation-text">${q.explanation}</div>
                         </div>` : ''}
@@ -706,7 +706,7 @@
                             }).join('')}
                         </div>
                         ${answersShown ? `<div class="answer-text show">✓ Đáp án đúng: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong></div>` : ''}
-                        ${q.explanation ? `<div class="explanation-box" id="exp-all-${q.categoryId}-${q.id}">
+                        ${q.explanation ? `<div class="explanation-box${explanationsShown ? ' show' : ''}" id="exp-all-${q.categoryId}-${q.id}">
                             <div class="explanation-title">📖 Giải Thích:</div>
                             <div class="explanation-text">${q.explanation}</div>
                         </div>` : ''}
@@ -758,14 +758,15 @@
 
         function toggleExplanations() {
             explanationsShown = !explanationsShown;
-            const explanationBoxes = document.querySelectorAll('.explanation-box');
-            explanationBoxes.forEach(box => {
-                if (explanationsShown) {
-                    box.classList.add('show');
-                } else {
-                    box.classList.remove('show');
+            // Re-render to apply explanation visibility
+            if (currentCategory === 'all') {
+                renderAllQuestions(allQuestionsShuffled);
+            } else {
+                const category = questionsData.find(c => c.id === currentCategory);
+                if (category) {
+                    renderQuestions(category);
                 }
-            });
+            }
             document.querySelector('button[onclick="toggleExplanations()"]').textContent = 
                 explanationsShown ? '📖 Ẩn Giải Thích' : '📖 Giải Thích';
         }

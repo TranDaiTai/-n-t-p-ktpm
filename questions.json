@@ -14,7 +14,7 @@
             "To outline the coding standards for the development team"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Plan là một tài liệu toàn diện mô tả chiến lược kiểm thử, mục tiêu, lịch trình, ước tính, các sản phẩm giao và tài nguyên cần thiết.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Plan thực sự là một tài liệu mô tả chiến lược kiểm thử và phương pháp tiếp cận tổng thể.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Lịch trình phát hành phần mềm không phải là mục đích chính của test plan, đây là công việc của project management.\nC. Các tính năng phần mềm được xác định trong Requirements, không phải test plan.\nD. Tiêu chuẩn mã hóa dành cho team lập trình, không liên quan đến test plan.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Plan là tài liệu toàn diện mô tả strategy, objectives, scope, resources, schedule, tools, risks, entry/exit criteria (theo Guru99 và ISTQB). Nó là blueprint cho testing process.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTest plan là tài liệu toàn diện mô tả strategy, objectives, scope, resources, schedule, tools, risks, entry/exit criteria (theo Guru99 và ISTQB). Nó là blueprint cho testing process.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Schedule chỉ là 1 phần của test plan, không phải role chính. Nó là một thành phần nhỏ trong toàn bộ chiến lược kiểm thử.\nC. Các features của phần mềm được xác định trong Requirements Specification hay Requirement Document, không phải test plan.\nD. Coding standards thuộc về phát triển (Development), không phải kiểm thử. Đây là tiêu chuẩn cho developers, không testers.\n"
         },
         {
           "id": 2,
@@ -26,7 +26,7 @@
             "To design the user interface of the software"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Case là một bộ điều kiện và bước chi tiết được thiết kế để xác minh xem phần mềm có hoạt động chính xác không.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Mục đích chính của test case là xác định lỗi/khiếm khuyết trong phần mềm thông qua kiểm thử có tổ chức.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Lịch trình dự án thuộc về project plan, không phải test case.\nC. Quy trình phát triển phần mềm được ghi trong tài liệu SDLC, không phải test case.\nD. Thiết kế giao diện người dùng là công việc của UI/UX designer, không liên quan đến test case.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Case là một bộ điều kiện (conditions), bước (steps) chi tiết được thiết kế để verify chức năng và identify defects (Guru99: test case development phase).\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTest case là một bộ điều kiện và bước chi tiết được thiết kế để verify chức năng và identify defects. Đây chính là mục đích chính của test case.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Lịch trình dự án (project schedule) thuộc về project planning, không phải test case.\nC. Quy trình phát triển phần mềm được ghi trong SDLC documentation hoặc tài liệu development process, không phải test case.\nD. Thiết kế giao diện người dùng là công việc của UI/UX designers, hoàn toàn không liên quan đến test case.\n"
         },
         {
           "id": 3,
@@ -38,7 +38,7 @@
             "Unit testing"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nIntegration Testing tập trung vào dòng dữ liệu từ module này sang module khác, đảm bảo các đơn vị tích hợp hoạt động cùng nhau mà không có lỗi.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Integration Testing chính là mức kiểm thử tập trung vào tích hợp hệ thống tổng thể.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing đảm bảo phần mềm vẫn hoạt động sau khi thay đổi, không phải tích hợp hệ thống.\nC. Acceptance Testing xác minh yêu cầu kinh doanh, không phải tích hợp tổng thể.\nD. Unit Testing kiểm thử các đơn vị riêng lẻ, không phải tích hợp.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nIntegration Testing kiểm tra data flow giữa các modules sau khi được ghép lại, đảm bảo các modules tích hợp hoạt động cùng nhau (Guru99 Testing Levels).\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nIntegration testing chính là mức kiểm thử tập trung vào tích hợp hệ thống. Nó kiểm tra data flow giữa các modules ghép lại.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing là một Test Type (loại kiểm thử), không phải Testing Level. Nó được áp dụng để detect side effects sau khi có thay đổi.\nC. Acceptance Testing kiểm tra xem hệ thống có validate business requirements hay không, không phải tích hợp các modules.\nD. Unit Testing kiểm thử các đơn vị riêng lẻ trong cách ly (isolation), không phải tích hợp giữa các modules.\n"
         },
         {
           "id": 4,
@@ -50,7 +50,7 @@
             "To verify that the software meets specific business requirements"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nUsability Testing đánh giá giao diện người dùng và trải nghiệm người dùng tổng thể của phần mềm.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Usability Testing tiếp tục đánh giá giao diện người dùng và trải nghiệm người dùng.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Load Testing hoặc Stress Testing kiểm tra số lượng người dùng, không phải usability.\nC. Performance Testing dưới áp lực, không phải usability.\nD. Verification Requirements kiểm thử yêu cầu kinh doanh, không phải trải nghiệm người dùng.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nUsability Testing đánh giá user-friendly, ease of use, trải nghiệm người dùng của phần mềm. Nó là một Non-Functional Testing, tuân theo ISO 25010 Usability characteristic.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nUsability testing đánh giá giao diện người dùng và trải nghiệm người dùng tổng thể. Nó kiểm tra xem phần mềm có dễ sử dụng không.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Khả năng xử lý nhiều người dùng (Load Testing) thuộc về Performance Testing, không phải Usability Testing.\nC. Performance under stress (Stress Testing) là Non-Functional Testing nhưng kiểm tra khả năng chịu tải, không phải usability.\nD. Xác minh yêu cầu kinh doanh (business requirements) là mục tiêu của Functional Testing và Acceptance Testing, không phải Usability Testing.\n"
         },
         {
           "id": 5,
@@ -62,7 +62,7 @@
             "The process of creating software"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nSoftware Testing là quá trình tìm kiếm lỗi hoặc khiếm khuyết trong phần mềm bằng cách kiểm tra xem sản phẩm phần mềm thực tế có khớp với yêu cầu dự kiến không.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Định nghĩa chính xác của Software Testing là quá trình tìm kiếm lỗi/khiếm khuyết.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Thiết kế phần mềm là công việc của developers/architects, không phải testing.\nC. Bảo trì phần mềm là việc sửa chữa sau triển khai, không phải testing.\nD. Tạo phần mềm là phát triển, không phải testing.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nSoftware Testing là quá trình tìm kiếm bugs/khiếm khuyết (defects) trong phần mềm bằng cách kiểm tra xem sản phẩm phần mềm thực tế (actual) có khớp với yêu cầu dự kiến (expected) không (Guru99 definition).\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nSoftware testing là quá trình tìm kiếm lỗi/khiếm khuyết trong phần mềm bằng cách check actual vs expected. Đây là định nghĩa cốt lõi của software testing.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Thiết kế phần mềm (Designing) là công việc của Architects/Designers, không phải testing.\nC. Bảo trì phần mềm (Maintaining) là việc sửa chữa và cập nhật sau khi triển khai, không phải testing.\nD. Tạo phần mềm (Creating) là phát triển (Development), không phải kiểm thử.\n"
         },
         {
           "id": 6,
@@ -74,7 +74,7 @@
             "Unit testing"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nRegression Testing đảm bảo phần mềm vẫn hoạt động chính xác sau khi có thay đổi, ngăn chặn các lỗi mới được giới thiệu bởi các sửa đổi.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Regression Testing chính xác là giai đoạn kiểm thử giúp đảm bảo phần mềm vẫn hoạt động sau thay đổi.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. System Testing kiểm thử toàn bộ hệ thống, không chuyên biệt về thay đổi.\nC. Performance Testing kiểm tra hiệu suất dưới áp lực, không phải tác động của thay đổi.\nD. Unit Testing kiểm thử đơn vị riêng lẻ, không phải hiệu ứng của thay đổi.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nRegression Testing được thực hiện sau khi có thay đổi để detect side effects không mong muốn. Nó đảm bảo phần mềm vẫn hoạt động chính xác sau khi sửa (Guru99 Test Types).\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nRegression testing đảm bảo phần mềm vẫn hoạt động chính xác sau khi có thay đổi, ngăn chặn các lỗi mới được giới thiệu bởi các sửa đổi.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. System Testing kiểm thử toàn bộ hệ thống end-to-end, không chuyên biệt về các side effects của thay đổi.\nC. Performance Testing kiểm tra hiệu suất dưới áp lực, không phải tác động của thay đổi lên các phần khác.\nD. Unit Testing kiểm thử các đơn vị riêng lẻ trong cách ly, không phải để detect side effects của thay đổi.\n"
         },
         {
           "id": 7,
@@ -86,7 +86,7 @@
             "There is no difference between static testing and dynamic testing"
           ],
           "correct": 0,
-          "explanation": "🎯 KHÁI NIỆM:\nStatic Testing được thực hiện trước khi mã được phát triển thông qua đánh giá, kiểm tra. Dynamic Testing được thực hiện sau khi mã được viết bằng cách thực thi phần mềm.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Static Testing xảy ra trước mã hóa (reviews), Dynamic Testing xảy ra sau mã hóa (execution).\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Ngược lại - Static là review, Dynamic là execution.\nC. Cả developers và testers có thể thực hiện cả hai loại testing.\nD. Có sự khác biệt rõ ràng giữa Static và Dynamic Testing.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nStatic Testing được thực hiện trước khi mã được phát triển thông qua các hoạt động như đánh giá (review), kiểm tra (inspection). Dynamic Testing được thực hiện sau khi mã được viết bằng cách thực thi (execute) phần mềm (ISTQB glossary).\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nStatic testing xảy ra trước mã hóa (reviews/inspections), Dynamic testing xảy ra sau mã hóa khi code được thực thi. Đây là phân biệt cơ bản.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Ngược lại - Static là review (không execute), Dynamic là execution (execute code).\nC. Cả developers và testers có thể thực hiện cả hai loại testing. Không phải developers chỉ làm static và testers chỉ làm dynamic.\nD. Có sự khác biệt rõ ràng và quan trọng giữa Static Testing và Dynamic Testing.\n"
         },
         {
           "id": 8,
@@ -98,7 +98,7 @@
             "During the requirements gathering phase"
           ],
           "correct": 3,
-          "explanation": "🎯 KHÁI NIỆM:\nNguyên tắc 'Early Testing' trong 7 Principles of Software Testing: Kiểm thử nên bắt đầu sớm khi phát hiện lỗi rẻ hơn để sửa chữa.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Kiểm thử nên bắt đầu từ giai đoạn thu thập yêu cầu, đây là 'Early Testing' principle.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Trước giai đoạn thiết kế có thể quá sớm và chưa có yêu cầu rõ ràng.\nB. Sau coding hoàn tất là quá muộn, vi phạm Early Testing principle.\nC. Chỉ sau khi triển khai là quá muộn, lỗi rất tốn kém sửa chữa.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nNguyên tắc 'Early Testing' (Principle 3 của 7 Principles of Software Testing): Kiểm thử nên bắt đầu sớm khi phát hiện lỗi sẽ rẻ hơn để sửa chữa (Guru99 Principles).\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nKiểm thử nên bắt đầu từ giai đoạn thu thập yêu cầu (requirements gathering phase), đây là 'Early Testing' principle. Lỗi phát hiện sớm có chi phí sửa thấp hơn.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Trước giai đoạn thiết kế có thể quá sớm vì lúc đó chưa có yêu cầu rõ ràng.\nB. Sau coding hoàn tất là quá muộn, vi phạm Early Testing principle. Lỗi sẽ tốn kém hơn để sửa chữa.\nC. Chỉ sau khi triển khai là quá muộn, lỗi rất tốn kém sửa chữa lúc đó.\n"
         },
         {
           "id": 9,
@@ -110,7 +110,7 @@
             "Ensuring that the software meets requirements"
           ],
           "correct": 2,
-          "explanation": "🎯 KHÁI NIỆM:\nMục tiêu chính của Software Testing bao gồm: đảm bảo độ tin cậy, tìm lỗi, và xác minh yêu cầu.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Tối đa hóa tốc độ coding KHÔNG phải là mục tiêu của testing, thậm chí có thể xung đột.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Đảm bảo phần mềm tin cậy và ổn định là mục tiêu chính.\nB. Tìm lỗi chính xác là mục tiêu cơ bản của testing.\nD. Đảm bảo phần mềm đáp ứng yêu cầu là mục tiêu quan trọng.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nMục tiêu chính của Software Testing bao gồm: đảm bảo độ tin cậy, tìm lỗi/khiếm khuyết, và xác minh yêu cầu. Mục tiêu này tập trung vào chất lượng phần mềm.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTối đa hóa tốc độ coding (maximize coding speed) KHÔNG phải là mục tiêu của testing. Nó thậm chí có thể xung đột với mục tiêu testing (đảm bảo chất lượng).\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Đảm bảo phần mềm tin cậy và ổn định là một mục tiêu chính của testing.\nB. Tìm lỗi/khiếm khuyết là mục tiêu cơ bản và cốt lõi của testing.\nD. Đảm bảo phần mềm đáp ứng yêu cầu là một mục tiêu quan trọng của testing.\n"
         },
         {
           "id": 10,
@@ -122,7 +122,7 @@
             "All of the above"
           ],
           "correct": 3,
-          "explanation": "🎯 KHÁI NIỆM:\nAutomated Testing có thể thực hiện các bài kiểm thử phức tạp, chính xác hơn, có thể lặp lại, và nhanh hơn kiểm thử thủ công.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Tất cả ba lợi ích (thực hiện bài kiểm thử phức tạp, chính xác/lặp lại, nhanh hơn) đều đúng.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Chỉ một phần lợi ích.\nB. Chỉ một phần lợi ích.\nC. Chỉ một phần lợi ích - cần chọn tất cả.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nAutomated Testing có nhiều lợi ích: (1) Có thể thực hiện các bài kiểm thử phức tạp/khó, (2) Chính xác hơn và có thể lặp lại, (3) Nhanh hơn kiểm thử thủ công (Guru99 Automation benefits).\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTất cả ba lợi ích (thực hiện bài kiểm thử phức tạp, chính xác/lặp lại, nhanh hơn) đều đúng. Automation tốt cho regression testing, performance testing, và các bài test lặp đi lặp lại.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Chỉ một phần lợi ích.\nB. Chỉ một phần lợi ích.\nC. Chỉ một phần lợi ích - cần chọn tất cả các lợi ích.\n"
         }
       ]
     },
@@ -140,7 +140,7 @@
             "Test Execution"
           ],
           "correct": 2,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Design Phase: Giai đoạn tạo test scripts, test cases, và chuẩn bị test data sẽ được thực thi trong Test Execution.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Test Design chính xác là giai đoạn tạo test scripts và chuẩn bị test data.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning định nghĩa scope/objectives, không tạo test scripts.\nB. Test Closure kết thúc hoạt động kiểm thử, không tạo scripts.\nD. Test Execution chạy test, không tạo test data.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Design Phase (Giai đoạn 3 của STLC): Giai đoạn phát triển (develop) test cases, tạo test scripts, và chuẩn bị test data sẽ được thực thi trong Test Execution phase (Guru99 STLC phase 3).\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTest Design phase chính xác là giai đoạn tạo test scripts, test cases, và chuẩn bị test data.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning định nghĩa scope/objectives/strategy, không tạo test scripts.\nB. Test Closure kết thúc hoạt động kiểm thử, không tạo scripts.\nD. Test Execution chạy test cases, không tạo test data.\n"
         },
         {
           "id": 2,
@@ -152,7 +152,7 @@
             "Test Execution"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Planning: Giai đoạn đầu tiên của STLC nơi scope, objectives, resources, schedule, và overall testing strategy được định nghĩa.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Planning là giai đoạn định nghĩa tất cả những yếu tố này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure kết thúc, không lập kế hoạch.\nC. Test Design tạo test cases dựa trên kế hoạch, không định nghĩa scope.\nD. Test Execution chạy test, không lập kế hoạch.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Planning Phase (Giai đoạn 2 của STLC): Giai đoạn đầu tiên nơi scope, objectives, resources, schedule, tools, risks, entry/exit criteria, overall testing strategy được định nghĩa (Guru99 STLC).\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTest Planning là giai đoạn định nghĩa tất cả những yếu tố: scope, objectives, resources, schedule.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure kết thúc kiểm thử, không lập kế hoạch.\nC. Test Design tạo test cases dựa trên kế hoạch, không định nghĩa scope.\nD. Test Execution chạy test, không lập kế hoạch.\n"
         },
         {
           "id": 3,
@@ -164,7 +164,7 @@
             "Test Design"
           ],
           "correct": 3,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Design Phase: Test cases được phát triển dựa trên yêu cầu phần mềm, tạo ra các tình huống kiểm thử và scripts chi tiết.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Test Design chính xác phát triển test cases từ yêu cầu.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution chạy các test cases đã được tạo.\nB. Test Planning định nghĩa kế hoạch chứ không tạo test cases.\nC. Test Closure kết thúc kiểm thử, không phát triển test cases.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Design Phase: Giai đoạn phát triển test cases dựa trên software requirements, tạo ra các tình huống kiểm thử (scenarios) chi tiết và test scripts (Guru99).\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTest Design phát triển test cases từ requirements, tạo scenarios và scripts chi tiết.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution chạy các test cases đã được tạo.\nB. Test Planning định nghĩa kế hoạch chứ không tạo test cases.\nC. Test Closure kết thúc kiểm thử, không phát triển test cases.\n"
         },
         {
           "id": 4,
@@ -176,7 +176,7 @@
             "Test Planning"
           ],
           "correct": 2,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn chạy test cases và so sánh kết quả thực tế với kết quả dự kiến.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Test Execution so sánh kết quả thực tế vs kết quả dự kiến.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure không so sánh kết quả.\nB. Test Design tạo test cases, không so sánh kết quả.\nD. Test Planning không thực thi hoặc so sánh kết quả.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase (Giai đoạn 4): Giai đoạn chạy (run) test cases và so sánh kết quả thực tế (actual results) với kết quả dự kiến (expected results).\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTest Execution phase chính xác là giai đoạn so sánh kết quả thực tế vs kết quả dự kiến.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure không so sánh kết quả.\nB. Test Design tạo test cases, không so sánh kết quả.\nD. Test Planning không thực thi hoặc so sánh kết quả.\n"
         },
         {
           "id": 5,
@@ -188,7 +188,7 @@
             "Test Execution"
           ],
           "correct": 2,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn đảm bảo tất cả các sản phẩm kiểm thử được hoàn thiện, lưu trữ, và kết thúc chính thức các hoạt động kiểm thử.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Test Closure chính xác hoàn thiện và lưu trữ tất cả sản phẩm.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning định nghĩa kế hoạch, không hoàn thiện sản phẩm.\nB. Test Design tạo test cases, không lưu trữ.\nD. Test Execution chạy test, không kết thúc hoạt động.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase (Giai đoạn 6): Giai đoạn cuối đảm bảo tất cả các sản phẩm kiểm thử (deliverables) được hoàn thiện, lưu trữ (archive), và kết thúc chính thức các hoạt động kiểm thử.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTest Closure chính xác hoàn thiện và lưu trữ tất cả sản phẩm kiểm thử.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning định nghĩa kế hoạch, không hoàn thiện sản phẩm.\nB. Test Design tạo test cases, không lưu trữ.\nD. Test Execution chạy test, không kết thúc hoạt động.\n"
         },
         {
           "id": 6,
@@ -200,7 +200,7 @@
             "To plan the testing activities"
           ],
           "correct": 2,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn chạy các test cases đã được chuẩn bị để kiểm thử phần mềm.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Mục đích Test Execution là chạy test cases.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure kết thúc kiểm thử, không chạy test.\nB. Phân tích kết quả là một phần của Test Execution nhưng không phải mục đích chính.\nD. Test Planning lập kế hoạch, không chạy test.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn chạy các test cases đã được chuẩn bị từ Test Design phase để kiểm thử phần mềm. Kết quả được ghi lại và so sánh với expected results.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nMục đích chính của Test Execution phase là chạy test cases.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure kết thúc kiểm thử, không chạy test.\nB. Phân tích kết quả là một phần nhưng không phải mục đích chính.\nD. Test Planning lập kế hoạch, không chạy test.\n"
         },
         {
           "id": 7,
@@ -212,7 +212,7 @@
             "To execute test cases"
           ],
           "correct": 2,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn chính thức kết thúc các hoạt động kiểm thử, lưu trữ tài liệu, và đảm bảo tất cả sản phẩm đã hoàn tất.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Mục tiêu chính của Test Closure là chính thức kết thúc các hoạt động kiểm thử.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Đóng lỗi không phải mục tiêu chính của Test Closure.\nB. Thiết kế test cases là công việc của Test Design, không Closure.\nD. Thực thi test cases là công việc của Test Execution, không Closure.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn chính thức kết thúc (close) các hoạt động kiểm thử, tổng hợp báo cáo (test summary report), ghi lại bài học (lessons learned), và lưu trữ tài liệu.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nMục tiêu chính của Test Closure là chính thức kết thúc các hoạt động kiểm thử.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Đóng lỗi (Close defects) không phải mục tiêu chính của Test Closure.\nB. Thiết kế test cases là công việc của Test Design, không Closure.\nD. Thực thi test cases là công việc của Test Execution, không Closure.\n"
         },
         {
           "id": 8,
@@ -224,7 +224,7 @@
             "Test Planning"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn tóm tắt các hoạt động kiểm thử và chuẩn bị test summary report.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Closure tóm tắt hoạt động và chuẩn bị test summary report.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution chạy test, không tóm tắt hoạt động.\nC. Test Design tạo test cases, không chuẩn bị summary report.\nD. Test Planning lập kế hoạch, không chuẩn bị summary report.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn tóm tắt (summarize) tất cả các hoạt động kiểm thử, ghi lại kết quả, và chuẩn bị test summary report với lessons learned.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTest Closure tóm tắt hoạt động kiểm thử và chuẩn bị test summary report.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution chạy test, không tóm tắt hoạt động.\nC. Test Design tạo test cases, không chuẩn bị summary report.\nD. Test Planning lập kế hoạch, không chuẩn bị summary report.\n"
         },
         {
           "id": 9,
@@ -236,7 +236,7 @@
             "Test Closure"
           ],
           "correct": 2,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn thực hiện kiểm thử thực tế của phần mềm bằng cách chạy test cases.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Kiểm thử thực tế được thực hiện trong Test Execution phase.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning lập kế hoạch, không thực thi.\nB. Test Design tạo test cases, không thực thi.\nD. Test Closure kết thúc kiểm thử, không thực thi.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn thực hiện kiểm thử thực tế (actual testing) của phần mềm bằng cách chạy (run) test cases. Đây là giai đoạn động thực hiện hoạt động kiểm thử.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nKiểm thử thực tế được thực hiện trong Test Execution phase.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning lập kế hoạch, không thực thi.\nB. Test Design tạo test cases, không thực thi.\nD. Test Closure kết thúc kiểm thử, không thực thi.\n"
         },
         {
           "id": 10,
@@ -248,7 +248,7 @@
             "Test Closure"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nTest Planning Phase: Giai đoạn đầu tiên của STLC nơi định nghĩa scope, objectives, resources, schedule, và overall testing strategy.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Planning là giai đoạn đầu tiên trong STLC.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution không phải giai đoạn đầu tiên.\nC. Test Design không phải giai đoạn đầu tiên.\nD. Test Closure không phải giai đoạn đầu tiên.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nTest Planning Phase: Theo STLC chuẩn từ Guru99 và ISTQB, Test Planning là giai đoạn đầu tiên nơi tất cả các yếu tố strategy, scope, objectives, resources được định nghĩa.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTest Planning là giai đoạn đầu tiên trong STLC (sau requirement analysis).\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution không phải giai đoạn đầu tiên.\nC. Test Design không phải giai đoạn đầu tiên.\nD. Test Closure không phải giai đoạn đầu tiên.\n"
         }
       ]
     },
@@ -266,7 +266,7 @@
             "To validate that the system meets the business requirements"
           ],
           "correct": 3,
-          "explanation": "🎯 KHÁI NIỆM:\nAcceptance Testing (UAT) xác minh rằng hệ thống đáp ứng các yêu cầu kinh doanh được xác định.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Acceptance Testing xác thực hệ thống đáp ứng yêu cầu kinh doanh.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Unit Testing xác minh đơn vị riêng lẻ, không yêu cầu kinh doanh.\nB. Integration Testing kiểm thử tương tác giữa các component, không yêu cầu kinh doanh.\nC. System Testing kiểm thử toàn bộ hệ thống nhưng rộng hơn.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nAcceptance Testing (UAT - User Acceptance Testing): Mức kiểm thử xác minh (validate) rằng hệ thống đáp ứng các yêu cầu kinh doanh (business requirements) và nhu cầu người dùng (Guru99 UAT).\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nAcceptance Testing xác thực hệ thống đáp ứng yêu cầu kinh doanh và nhu cầu người dùng.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Unit Testing xác minh các đơn vị riêng lẻ, không yêu cầu kinh doanh.\nB. Integration Testing kiểm thử tương tác giữa các component, không yêu cầu kinh doanh tổng thể.\nC. System Testing kiểm thử toàn bộ hệ thống nhưng rộng hơn, không chỉ acceptance.\n"
         },
         {
           "id": 2,
@@ -278,7 +278,7 @@
             "Unit Testing"
           ],
           "correct": 3,
-          "explanation": "🎯 KHÁI NIỆM:\nRegression Testing: Kiểm thử để đảm bảo các phần mềm vẫn hoạt động sau thay đổi, có thể thực hiện ở mọi mức độ testing.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn C đúng: Regression Testing có thể được thực hiện ở tất cả các mức độ testing, bao gồm User Acceptance Testing.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing không chuyên biệt cho Integration Testing.\nB. Regression Testing không chuyên biệt cho System Testing.\nC. Không đúng so với khái niệm.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nRegression Testing: Kiểm thử để đảm bảo phần mềm vẫn hoạt động sau thay đổi. Nó có thể được áp dụng ở mọi mức độ testing (Unit, Integration, System, UAT) tùy thuộc vào scope thay đổi.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nRegression Testing có thể được thực hiện ở tất cả các mức độ testing, bao gồm cả User Acceptance Testing.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing không chuyên biệt cho Integration Testing.\nB. Regression Testing không chuyên biệt cho System Testing.\nC. Không đúng với khái niệm.\n"
         },
         {
           "id": 3,
@@ -290,7 +290,7 @@
             "Unit Testing"
           ],
           "correct": 0,
-          "explanation": "🎯 KHÁI NIỆM:\nDeployment Testing: Kiểm thử để đảm bảo phần mềm có thể triển khai và chạy trong môi trường đích một cách thành công.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Deployment Testing đảm bảo phần mềm có thể chạy trong môi trường đích.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. System Testing kiểm thử toàn bộ hệ thống, không chuyên biệt về triển khai.\nC. Integration Testing kiểm thử tương tác giữa components, không triển khai.\nD. Unit Testing kiểm thử đơn vị, không triển khai.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nDeployment Testing: Kiểm thử để đảm bảo phần mềm có thể triển khai (deploy) và chạy (run) thành công trong môi trường đích (target environment), thường là production-like environment.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nDeployment Testing đảm bảo phần mềm có thể chạy trong môi trường đích một cách thành công.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. System Testing kiểm thử toàn bộ hệ thống, không chuyên biệt về triển khai.\nC. Integration Testing kiểm thử tương tác giữa components, không triển khai.\nD. Unit Testing kiểm thử đơn vị, không triển khai.\n"
         },
         {
           "id": 4,
@@ -302,7 +302,7 @@
             "Acceptance Testing"
           ],
           "correct": 0,
-          "explanation": "🎯 KHÁI NIỆM:\nIntegration Testing: Mức kiểm thử tập trung vào tương tác giữa các component khác nhau hoặc hệ thống để xác minh chúng hoạt động cùng nhau.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Integration Testing chính xác tập trung vào tương tác giữa các component.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Unit Testing kiểm thử đơn vị riêng lẻ, không tương tác.\nC. System Testing kiểm thử toàn bộ hệ thống, rộng hơn integration.\nD. Acceptance Testing kiểm thử yêu cầu kinh doanh, không component.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nIntegration Testing: Mức kiểm thử tập trung vào tương tác (interaction) giữa các component khác nhau hoặc hệ thống để xác minh chúng hoạt động cùng nhau mà không có lỗi.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nIntegration Testing chính xác tập trung vào tương tác giữa các component.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Unit Testing kiểm thử đơn vị riêng lẻ, không tương tác.\nC. System Testing kiểm thử toàn bộ hệ thống, rộng hơn tương tác component.\nD. Acceptance Testing kiểm thử yêu cầu kinh doanh, không component.\n"
         },
         {
           "id": 5,
@@ -314,7 +314,7 @@
             "To validate the integration of different components or systems"
           ],
           "correct": 0,
-          "explanation": "🎯 KHÁI NIỆM:\nSystem Testing: Mức kiểm thử đảm bảo toàn bộ hệ thống đáp ứng các yêu cầu được xác định và hoạt động chính xác.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Mục tiêu chính của System Testing là đảm bảo hệ thống đáp ứng yêu cầu.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Kiểm thử trong môi trường như production là một phần nhưng không phải mục tiêu chính.\nC. Unit Testing kiểm thử đơn vị, không toàn bộ hệ thống.\nD. Tích hợp component là Integration Testing, không System Testing.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nSystem Testing: Mức kiểm thử đảm bảo toàn bộ hệ thống (end-to-end) đáp ứng các yêu cầu được xác định (specified requirements) và hoạt động chính xác như một hệ thống tích hợp.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nMục tiêu chính của System Testing là đảm bảo hệ thống đáp ứng các yêu cầu được xác định.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Kiểm thử trong môi trường production-like là một phần nhưng không phải mục tiêu chính.\nC. Unit Testing kiểm thử đơn vị, không toàn bộ hệ thống.\nD. Tích hợp component là Integration Testing, không System Testing.\n"
         },
         {
           "id": 6,
@@ -326,7 +326,7 @@
             "To ensure the system meets the specified requirements"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nNon-Functional Testing: Kiểm thử cách phần mềm thực hiện dưới các điều kiện cụ thể (hiệu suất, bảo mật, usability).\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Non-Functional Testing kiểm thử hiệu năng dưới các điều kiện cụ thể.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Tích hợp component là Functional Testing, không Non-Functional.\nC. Unit Testing kiểm thử chức năng, không Non-Functional.\nD. Yêu cầu kinh doanh là Acceptance Testing, không Non-Functional.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nNon-Functional Testing: Kiểm thử cách phần mềm thực hiện (how well it performs) dưới các điều kiện cụ thể. Bao gồm Performance (tốc độ), Security (bảo mật), Usability (khả năng sử dụng) theo ISO 25010.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nNon-Functional Testing kiểm thử hiệu năng và chất lượng dưới các điều kiện cụ thể.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Tích hợp component là Functional Testing, không Non-Functional.\nC. Unit Testing kiểm thử chức năng, không non-functional.\nD. Yêu cầu kinh doanh là Acceptance Testing, không Non-Functional.\n"
         },
         {
           "id": 7,
@@ -338,7 +338,7 @@
             "Unit Testing"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nAcceptance Testing (UAT): Thường kiểm thử phần mềm trong môi trường giả lập hoặc môi trường production thực tế.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Acceptance Testing bao gồm kiểm thử trong môi trường giả lập hoặc production.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Integration Testing kiểm thử component, không environment.\nC. System Testing toàn bộ hệ thống trong controlled environment.\nD. Unit Testing kiểm thử đơn vị, không environment.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nAcceptance Testing (UAT): Thường được kiểm thử phần mềm trong môi trường giả lập (simulated environment) hoặc môi trường production thực tế (actual production environment) để kiểm tra xem nó có hoạt động tốt không.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nAcceptance Testing bao gồm kiểm thử trong môi trường giả lập hoặc production.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Integration Testing kiểm thử component, không environment.\nC. System Testing toàn bộ hệ thống trong controlled environment.\nD. Unit Testing kiểm thử đơn vị, không environment.\n"
         },
         {
           "id": 8,
@@ -350,7 +350,7 @@
             "Acceptance Testing"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nNon-Functional Testing: Kiểm thử các khía cạnh như bảo mật, hiệu suất, usability và các yêu cầu phi chức năng khác.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Non-Functional Testing liên quan đến bảo mật, hiệu suất, usability.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing đảm bảo không bị side effects sau thay đổi.\nC. Functional Testing kiểm thử chức năng, không hiệu suất/bảo mật.\nD. Acceptance Testing kiểm thử yêu cầu kinh doanh.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nNon-Functional Testing: Kiểm thử các khía cạnh như bảo mật (security), hiệu suất (performance), khả năng sử dụng (usability), độ tin cậy (reliability), và các yêu cầu phi chức năng khác theo ISO 25010.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nNon-Functional Testing liên quan đến bảo mật, hiệu suất, usability và các quality attributes.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing đảm bảo không bị side effects sau thay đổi.\nC. Functional Testing kiểm thử chức năng (what does it do), không hiệu suất/bảo mật.\nD. Acceptance Testing kiểm thử yêu cầu kinh doanh.\n"
         },
         {
           "id": 9,
@@ -362,7 +362,7 @@
             "Unit Testing"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nUser Acceptance Testing (UAT): Thường được thực hiện bởi end-users hoặc clients để xác minh phần mềm đáp ứng nhu cầu của họ.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: User Acceptance Testing được thực hiện bởi end-users/clients.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. System Testing được thực hiện bởi QA team, không end-users.\nC. Integration Testing được thực hiện bởi QA team, không end-users.\nD. Unit Testing được thực hiện bởi developers, không end-users.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nUser Acceptance Testing (UAT): Thường được thực hiện bởi end-users hoặc clients (người dùng cuối hoặc khách hàng) để xác minh phần mềm đáp ứng nhu cầu (needs) của họ.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nUser Acceptance Testing được thực hiện bởi end-users/clients.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. System Testing được thực hiện bởi QA team, không end-users.\nC. Integration Testing được thực hiện bởi QA team, không end-users.\nD. Unit Testing được thực hiện bởi developers, không end-users.\n"
         },
         {
           "id": 10,
@@ -374,7 +374,7 @@
             "To ensure the system performs well under stress"
           ],
           "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\nUnit Testing: Mức kiểm thử tập trung vào kiểm thử các component hoặc module riêng lẻ trong cách ly.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Unit Testing kiểm thử các component riêng lẻ trong cách ly.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Toàn bộ hệ thống là System Testing, không Unit Testing.\nC. Yêu cầu kinh doanh là Acceptance Testing, không Unit Testing.\nD. Hiệu suất dưới áp lực là Performance Testing, không Unit Testing.\n"
+          "explanation": "🎯 KHÁI NIỆM:\nUnit Testing: Mức kiểm thử tập trung vào kiểm thử các component (đơn vị nhỏ nhất) hoặc module riêng lẻ trong cách ly (isolation) để xác minh chúng hoạt động chính xác.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nUnit Testing kiểm thử các component riêng lẻ trong cách ly.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Toàn bộ hệ thống là System Testing, không Unit Testing.\nC. Yêu cầu kinh doanh là Acceptance Testing, không Unit Testing.\nD. Hiệu suất dưới áp lực là Performance/Stress Testing, không Unit Testing.\n"
         }
       ]
     },
