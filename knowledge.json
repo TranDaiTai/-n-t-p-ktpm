@@ -1,0 +1,435 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fundamentals of Software Testing",
+      "knowledge": {
+        "title": "Fundamentals of Software Testing",
+        "overview": "Software Testing is a method to check whether the actual software product matches expected requirements and to ensure that software product is defect free. It involves execution of software/system components using manual or automated tools to evaluate one or more properties of interest.",
+        "definition": "Testing in Software Engineering is a process of evaluating a software product to find whether the current software product meets the required conditions or not.",
+        "importance": [
+          "Cost-Effective: Testing any IT project on time helps save money for the long term. Bugs caught in the earlier stage cost less to fix.",
+          "Security: Helps in removing risks and problems earlier, ensuring trusted products.",
+          "Product Quality: Testing ensures a quality product is delivered to customers.",
+          "Customer Satisfaction: UI/UX Testing ensures the best user experience."
+        ],
+        "7Principles": [
+          "Testing Shows the Presence of Defects: Testing can reveal defects but cannot prove their absence.",
+          "Exhaustive Testing is Impossible: It's impossible to test every possible input and scenario.",
+          "Early Testing: Testing should begin as early as possible in SDLC (during requirements gathering).",
+          "Defect Clustering: About 80% of software problems occur in 20% of modules (Pareto principle).",
+          "Pesticide Paradox: Repeated test cases eventually stop finding new defects.",
+          "Testing is Context-Dependent: Testing approaches must adapt to the system's context.",
+          "Absence-of-Errors Fallacy: Bug-free software may still fail if it doesn't meet user requirements."
+        ],
+        "types": {
+          "functional": "Verifies that each function operates in conformance with requirement specification (Unit, Integration, System, UAT, Smoke, Sanity, API, Database Testing)",
+          "nonFunctional": "Evaluates non-functional aspects like performance, usability, reliability (Performance, Load, Stress, Volume, Security, Usability, Compatibility Testing)",
+          "maintenance": "Performed on existing operational systems to ensure modifications don't introduce new defects (Regression, Impact Analysis, Configuration Testing)"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Software Testing Life Cycle (STLC)",
+      "knowledge": {
+        "title": "Software Testing Life Cycle (STLC)",
+        "overview": "The Software Testing Life Cycle is a structured process followed by testing teams to ensure complete and systematic testing of software products.",
+        "definition": "STLC is the sequence of activities conducted to test software in a structured way, ensuring that quality objectives are met and the software works as expected.",
+        "phases": [
+          "Planning: Defining scope, objectives, resources, schedule, and testing strategy",
+          "Analysis: Understanding requirements and identifying test scenarios",
+          "Design: Creating test cases, test design specifications, and test scripts",
+          "Execution: Running test cases and recording results",
+          "Closure: Summarizing testing activities and creating final reports"
+        ],
+        "benefits": [
+          "Ensures systematic and structured approach to testing",
+          "Improves quality and reliability of software",
+          "Reduces defects and associated costs",
+          "Provides clear documentation and traceability"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Testing Levels and Types",
+      "knowledge": {
+        "title": "Testing Levels and Types",
+        "overview": "Software testing is performed at different levels during the development lifecycle, each with specific objectives and scope.",
+        "levels": [
+          {
+            "name": "Unit Testing",
+            "description": "Tests individual units or components of code in isolation. The smallest testable portion of system tested separately by developers.",
+            "purpose": "Verify that individual units work correctly before integration"
+          },
+          {
+            "name": "Integration Testing",
+            "description": "Different software modules are combined and tested as a group. Focuses on checking data communication amongst modules.",
+            "purpose": "Ensure integrated units work together without errors"
+          },
+          {
+            "name": "System Testing",
+            "description": "Performed on complete, integrated system. Tests overall interaction of components, including functional and non-functional aspects.",
+            "purpose": "Verify that system meets all specifications and requirements"
+          },
+          {
+            "name": "Acceptance Testing (UAT)",
+            "description": "Conducted to verify if requirements are met as per delivery. Done by users or clients.",
+            "purpose": "Ensure software meets business needs and is ready for production"
+          }
+        ],
+        "unitTestingImportance": [
+          "Early bug detection - problems surface close to where they're introduced",
+          "Improved code quality - clean, testable code leads to better architecture",
+          "Regression protection - acts as safety net during refactoring",
+          "Faster development - automated tests shorten QA feedback loops",
+          "Higher team confidence - developers deploy updates knowing they won't break existing features"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Test Types and Methods",
+      "knowledge": {
+        "title": "Test Types and Methods",
+        "overview": "There are multiple testing types and methods, each with specific purposes and approaches.",
+        "testingTypes": [
+          {
+            "name": "Manual Testing",
+            "description": "Testers manually execute test cases and check the system behavior without using automated tools"
+          },
+          {
+            "name": "Automated Testing",
+            "description": "Using automation tools to execute tests automatically, improving speed and repeatability"
+          },
+          {
+            "name": "Functional Testing",
+            "description": "Tests system functionality to ensure it works as specified"
+          },
+          {
+            "name": "Non-Functional Testing",
+            "description": "Tests aspects like performance, security, usability, reliability"
+          },
+          {
+            "name": "Smoke Testing",
+            "description": "Basic functionality check after deployment to ensure system is stable enough for further testing"
+          },
+          {
+            "name": "Sanity Testing",
+            "description": "Narrow regression testing focused on specific functionality after bug fixes"
+          },
+          {
+            "name": "Regression Testing",
+            "description": "Ensures existing features work correctly after code changes or updates"
+          }
+        ],
+        "automatedVsManual": {
+          "advantages": "Automated testing can perform complex tests that are difficult for humans, is more accurate and repeatable, and is faster than manual testing",
+          "note": "Both automated and manual testing are important - automation improves efficiency but manual exploratory testing remains essential"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Quality Standards (ISO/IEC 25010)",
+      "knowledge": {
+        "title": "Software Quality Standards and Best Practices",
+        "overview": "Software quality is defined by adherence to standards, best practices, and quality criteria.",
+        "qualityCharacteristics": [
+          "Functionality: Ability to provide functions that meet stated and implied needs",
+          "Reliability: Ability to maintain performance over time and under specified conditions",
+          "Usability: Ease of use and user experience quality",
+          "Performance: Response time and resource utilization efficiency",
+          "Security: Protection against unauthorized access and data integrity",
+          "Maintainability: Ease of modification and support",
+          "Portability: Ability to work across different platforms and environments"
+        ],
+        "testingBestPractices": [
+          "Use risk-based testing approach to prioritize critical areas",
+          "Implement comprehensive test coverage without gaming metrics",
+          "Focus on business-critical features and high-risk modules",
+          "Maintain clear test documentation and traceability",
+          "Integrate testing into CI/CD pipelines for continuous validation",
+          "Use meaningful test naming conventions and clear assertions",
+          "Balance automated and manual testing approaches"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Test Planning and Management",
+      "knowledge": {
+        "title": "Test Planning and Management",
+        "overview": "Test planning is a critical phase that establishes the foundation for effective testing execution.",
+        "definition": "A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing.",
+        "importance": [
+          "Helps people understand the details of testing",
+          "Acts as a rule book that needs to be followed",
+          "Documents important aspects like test estimation, scope, and strategy for review",
+          "Enables reuse for other projects",
+          "Provides clear direction for all testing activities"
+        ],
+        "components": [
+          "Scope: In-scope and out-of-scope items",
+          "Quality Objectives: Overall goals of testing",
+          "Testing Strategy: Approach and methodology",
+          "Resources: Human and system resources needed",
+          "Schedule: Timeline and milestones",
+          "Risk Assessment: Identified risks and mitigation plans",
+          "Entry/Exit Criteria: Conditions for starting and completing testing phases"
+        ],
+        "scope": {
+          "definition": "Scope defines features, functional or non-functional requirements that will be tested",
+          "importance": "Gives everyone confidence and accurate information about what is tested and what is not"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Test Management and Estimation",
+      "knowledge": {
+        "title": "Test Estimation and Management",
+        "overview": "Test estimation involves calculating the effort, time, and resources needed for testing activities.",
+        "estimationTechniques": [
+          "Work Breakdown Structure (WBS): Breaking down testing into smaller tasks",
+          "Three-Point Estimation: Using optimistic, pessimistic, and most likely estimates",
+          "Percentage of Development: Allocating percentage of development effort to testing",
+          "Metrics-Based: Using historical data to estimate new projects"
+        ],
+        "factors": [
+          "Project size and complexity",
+          "Team experience and skills",
+          "Available resources and tools",
+          "Testing scope and requirements",
+          "Risk level of the software",
+          "Project constraints and deadlines"
+        ],
+        "scheduling": {
+          "importance": "Creating solid schedule helps monitor project progress and control costs",
+          "inputs": "Employee availability, project deadline, resource allocation, estimated effort, identified risks"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Test Cases and Execution",
+      "knowledge": {
+        "title": "Test Cases and Execution",
+        "overview": "Test cases are the foundation of systematic testing and execution is where test cases are run against the software.",
+        "testCaseDefinition": "A test case is a detailed set of conditions and steps designed to verify whether the software functions correctly.",
+        "components": [
+          "Test Case ID: Unique identifier",
+          "Description: What is being tested",
+          "Preconditions: Setup requirements",
+          "Test Steps: Detailed steps to execute",
+          "Expected Results: What should happen",
+          "Actual Results: What actually happened",
+          "Status: Pass or Fail"
+        ],
+        "executionProcess": [
+          "Prepare Test Environment: Set up testing environment",
+          "Load Test Data: Prepare required test data",
+          "Execute Test Cases: Run according to plan",
+          "Record Results: Document outcomes",
+          "Report Defects: Log any failures found",
+          "Retest: Verify fixes after bug resolution",
+          "Close Test Cycle: Finalize execution"
+        ],
+        "bestPractices": [
+          "Test only one code at a time",
+          "Follow clear naming conventions",
+          "Ensure test cases are independent",
+          "Update tests when requirements change",
+          "Fix identified bugs before proceeding"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Bug Reporting",
+      "knowledge": {
+        "title": "Bug Reporting and Defect Management",
+        "overview": "Bug reporting is a critical process to document defects found during testing for tracking and resolution.",
+        "defectDefinition": "A defect or bug is any deviation from expected behavior, requirement, or specification.",
+        "reportingProcess": [
+          "Identify defect during testing",
+          "Analyze and reproduce the defect",
+          "Document complete information",
+          "Submit report with details",
+          "Track status and resolution",
+          "Verify fix through retesting"
+        ],
+        "reportContents": [
+          "Bug ID: Unique identifier",
+          "Title: Brief description",
+          "Severity: Critical, High, Medium, Low",
+          "Priority: When it should be fixed",
+          "Steps to Reproduce: Detailed reproduction steps",
+          "Expected vs Actual: What should happen vs what happens",
+          "Environment: OS, browser, configuration",
+          "Attachments: Screenshots, logs, videos"
+        ],
+        "severity": {
+          "critical": "System crash or complete feature failure",
+          "high": "Major functionality broken or unusable",
+          "medium": "Feature works but with issues or workarounds available",
+          "low": "Minor cosmetic issues or nice-to-have improvements"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Testing Approaches and Techniques",
+      "knowledge": {
+        "title": "Testing Approaches and Techniques",
+        "overview": "Different testing approaches and techniques are used to maximize test effectiveness and coverage.",
+        "approaches": [
+          {
+            "name": "Black-Box Testing",
+            "description": "Testing without knowledge of internal code structure, focusing on inputs and outputs"
+          },
+          {
+            "name": "White-Box Testing",
+            "description": "Testing with knowledge of internal code structure, verifying internal logic"
+          },
+          {
+            "name": "Gray-Box Testing",
+            "description": "Combination of black-box and white-box, partial knowledge of internal structure"
+          },
+          {
+            "name": "Risk-Based Testing",
+            "description": "Prioritizing testing based on identified risks and criticality"
+          },
+          {
+            "name": "Exploratory Testing",
+            "description": "Simultaneous learning and testing, discovering issues while exploring"
+          }
+        ],
+        "testingTechniques": [
+          "Equivalence Partitioning: Dividing input into classes with similar behavior",
+          "Boundary Value Analysis: Testing at the edges and boundaries of input ranges",
+          "Decision Table Testing: Testing combinations of conditions and actions",
+          "State Transition Testing: Testing different states and transitions",
+          "Use Case Testing: Testing based on user interactions and scenarios"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Black-box Testing Techniques",
+      "knowledge": {
+        "title": "Black-Box Testing Techniques",
+        "overview": "Black-box testing focuses on the external behavior of software without considering internal implementation.",
+        "definition": "Black-box testing is testing the software system from external perspective, treating it as a 'black box' where only inputs and outputs are considered.",
+        "advantages": [
+          "No need for code knowledge",
+          "Tests from user perspective",
+          "Can be done early in development",
+          "Good for integration and system testing",
+          "Unbiased testing approach"
+        ],
+        "techniques": [
+          {
+            "name": "Equivalence Partitioning",
+            "description": "Dividing inputs into classes where all values behave similarly, testing representative value from each class"
+          },
+          {
+            "name": "Boundary Value Analysis",
+            "description": "Testing at boundary conditions where behavior often changes (minimum, maximum, just below/above boundaries)"
+          },
+          {
+            "name": "Decision Table Testing",
+            "description": "Creating table of conditions and corresponding actions to test combinations"
+          },
+          {
+            "name": "State Transition Testing",
+            "description": "Testing transitions between different states of the system"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Decision Table and State Transition Testing",
+      "knowledge": {
+        "title": "Decision Table and State Transition Testing",
+        "overview": "Advanced black-box testing techniques for complex scenarios and state-dependent behavior.",
+        "decisionTableTesting": {
+          "definition": "Decision table testing is a systematic approach to test combinations of conditions and their corresponding actions",
+          "process": [
+            "Identify all conditions and actions",
+            "Create table with conditions as rows and test cases as columns",
+            "Mark which actions occur for each condition combination",
+            "Create test case for each unique combination"
+          ],
+          "benefits": [
+            "Tests all important combinations",
+            "Ensures completeness",
+            "Easy to identify missing test cases",
+            "Reduces redundancy"
+          ]
+        },
+        "stateTransitionTesting": {
+          "definition": "State transition testing validates how system behaves when transitioning between different states",
+          "states": "Distinct modes or conditions where software behaves differently",
+          "transitions": "Changes from one state to another triggered by events",
+          "process": [
+            "Identify all possible states",
+            "Identify events that trigger transitions",
+            "Create state diagram showing transitions",
+            "Create test cases for valid and invalid transitions"
+          ],
+          "benefits": [
+            "Tests state-dependent behavior",
+            "Validates event handling",
+            "Identifies missing or invalid transitions",
+            "Useful for workflows and business processes"
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "Use Case and GUI Testing",
+      "knowledge": {
+        "title": "Use Case and GUI Testing",
+        "overview": "Use case testing validates user interactions while GUI testing ensures user interface quality.",
+        "useCaseTesting": {
+          "definition": "Testing based on use cases that describe how users interact with the system",
+          "benefits": [
+            "Tests real-world user scenarios",
+            "Validates complete business flows",
+            "Easy for non-technical stakeholders to understand",
+            "Ensures user requirements are met"
+          ],
+          "process": [
+            "Identify all use cases from requirements",
+            "Define preconditions and postconditions",
+            "Create test cases for main flow and alternate flows",
+            "Include both positive and negative scenarios"
+          ]
+        },
+        "guiTesting": {
+          "definition": "Testing the graphical user interface to ensure usability and proper functionality",
+          "areas": [
+            "Layout and appearance: Correct positioning and visual design",
+            "Navigation: Smooth flow between screens and sections",
+            "Controls: Buttons, menus, input fields work correctly",
+            "Responsiveness: UI reacts properly to user actions",
+            "Accessibility: UI accessible to all users including those with disabilities",
+            "Localization: Text and content display correctly in different languages"
+          ],
+          "bestPractices": [
+            "Test on multiple browsers and devices",
+            "Verify responsive design on different screen sizes",
+            "Test keyboard navigation",
+            "Check visual consistency",
+            "Validate error messages and help text",
+            "Test user workflows end-to-end"
+          ]
+        }
+      }
+    }
+  ]
+}

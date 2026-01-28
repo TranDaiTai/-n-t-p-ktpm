@@ -14,7 +14,7 @@
             "To outline the coding standards for the development team"
           ],
           "correct": 1,
-          "explanation": "A test plan is a comprehensive document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. It serves as a blueprint to conduct software testing activities as a defined process."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Plan là một tài liệu toàn diện mô tả chiến lược kiểm thử, mục tiêu, lịch trình, ước tính, các sản phẩm giao và tài nguyên cần thiết.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Plan thực sự là một tài liệu mô tả chiến lược kiểm thử và phương pháp tiếp cận tổng thể.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Lịch trình phát hành phần mềm không phải là mục đích chính của test plan, đây là công việc của project management.\nC. Các tính năng phần mềm được xác định trong Requirements, không phải test plan.\nD. Tiêu chuẩn mã hóa dành cho team lập trình, không liên quan đến test plan.\n"
         },
         {
           "id": 2,
@@ -26,7 +26,7 @@
             "To design the user interface of the software"
           ],
           "correct": 1,
-          "explanation": "A test case is a detailed set of conditions and steps designed to verify whether the software functions correctly. It provides a documented approach to test the application and identify defects."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Case là một bộ điều kiện và bước chi tiết được thiết kế để xác minh xem phần mềm có hoạt động chính xác không.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Mục đích chính của test case là xác định lỗi/khiếm khuyết trong phần mềm thông qua kiểm thử có tổ chức.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Lịch trình dự án thuộc về project plan, không phải test case.\nC. Quy trình phát triển phần mềm được ghi trong tài liệu SDLC, không phải test case.\nD. Thiết kế giao diện người dùng là công việc của UI/UX designer, không liên quan đến test case.\n"
         },
         {
           "id": 3,
@@ -38,7 +38,7 @@
             "Unit testing"
           ],
           "correct": 1,
-          "explanation": "Integration testing focuses on the data flow from one module to other modules, ensuring that different integrated units work together without errors."
+          "explanation": "🎯 KHÁI NIỆM:\nIntegration Testing tập trung vào dòng dữ liệu từ module này sang module khác, đảm bảo các đơn vị tích hợp hoạt động cùng nhau mà không có lỗi.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Integration Testing chính là mức kiểm thử tập trung vào tích hợp hệ thống tổng thể.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing đảm bảo phần mềm vẫn hoạt động sau khi thay đổi, không phải tích hợp hệ thống.\nC. Acceptance Testing xác minh yêu cầu kinh doanh, không phải tích hợp tổng thể.\nD. Unit Testing kiểm thử các đơn vị riêng lẻ, không phải tích hợp.\n"
         },
         {
           "id": 4,
@@ -50,7 +50,7 @@
             "To verify that the software meets specific business requirements"
           ],
           "correct": 1,
-          "explanation": "Usability testing evaluates the software's user interface and overall user experience to ensure it is user-friendly and meets customer expectations."
+          "explanation": "🎯 KHÁI NIỆM:\nUsability Testing đánh giá giao diện người dùng và trải nghiệm người dùng tổng thể của phần mềm.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Usability Testing tiếp tục đánh giá giao diện người dùng và trải nghiệm người dùng.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Load Testing hoặc Stress Testing kiểm tra số lượng người dùng, không phải usability.\nC. Performance Testing dưới áp lực, không phải usability.\nD. Verification Requirements kiểm thử yêu cầu kinh doanh, không phải trải nghiệm người dùng.\n"
         },
         {
           "id": 5,
@@ -62,7 +62,7 @@
             "The process of creating software"
           ],
           "correct": 1,
-          "explanation": "Software testing is the process of finding bugs or errors in software by checking whether the actual software product matches expected requirements."
+          "explanation": "🎯 KHÁI NIỆM:\nSoftware Testing là quá trình tìm kiếm lỗi hoặc khiếm khuyết trong phần mềm bằng cách kiểm tra xem sản phẩm phần mềm thực tế có khớp với yêu cầu dự kiến không.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Định nghĩa chính xác của Software Testing là quá trình tìm kiếm lỗi/khiếm khuyết.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Thiết kế phần mềm là công việc của developers/architects, không phải testing.\nC. Bảo trì phần mềm là việc sửa chữa sau triển khai, không phải testing.\nD. Tạo phần mềm là phát triển, không phải testing.\n"
         },
         {
           "id": 6,
@@ -74,7 +74,7 @@
             "Unit testing"
           ],
           "correct": 1,
-          "explanation": "Regression testing ensures that the software works correctly after changes are made, preventing new bugs from being introduced by modifications."
+          "explanation": "🎯 KHÁI NIỆM:\nRegression Testing đảm bảo phần mềm vẫn hoạt động chính xác sau khi có thay đổi, ngăn chặn các lỗi mới được giới thiệu bởi các sửa đổi.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Regression Testing chính xác là giai đoạn kiểm thử giúp đảm bảo phần mềm vẫn hoạt động sau thay đổi.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. System Testing kiểm thử toàn bộ hệ thống, không chuyên biệt về thay đổi.\nC. Performance Testing kiểm tra hiệu suất dưới áp lực, không phải tác động của thay đổi.\nD. Unit Testing kiểm thử đơn vị riêng lẻ, không phải hiệu ứng của thay đổi.\n"
         },
         {
           "id": 7,
@@ -86,7 +86,7 @@
             "There is no difference between static testing and dynamic testing"
           ],
           "correct": 0,
-          "explanation": "Static testing is performed before coding through reviews and inspections, while dynamic testing is performed after coding by executing the software."
+          "explanation": "🎯 KHÁI NIỆM:\nStatic Testing được thực hiện trước khi mã được phát triển thông qua đánh giá, kiểm tra. Dynamic Testing được thực hiện sau khi mã được viết bằng cách thực thi phần mềm.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Static Testing xảy ra trước mã hóa (reviews), Dynamic Testing xảy ra sau mã hóa (execution).\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Ngược lại - Static là review, Dynamic là execution.\nC. Cả developers và testers có thể thực hiện cả hai loại testing.\nD. Có sự khác biệt rõ ràng giữa Static và Dynamic Testing.\n"
         },
         {
           "id": 8,
@@ -98,7 +98,7 @@
             "During the requirements gathering phase"
           ],
           "correct": 3,
-          "explanation": "Early testing, as defined in the 7 Principles of Software Testing, means testing should begin during the requirements gathering phase to catch defects early when they are cheaper to fix."
+          "explanation": "🎯 KHÁI NIỆM:\nNguyên tắc 'Early Testing' trong 7 Principles of Software Testing: Kiểm thử nên bắt đầu sớm khi phát hiện lỗi rẻ hơn để sửa chữa.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Kiểm thử nên bắt đầu từ giai đoạn thu thập yêu cầu, đây là 'Early Testing' principle.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Trước giai đoạn thiết kế có thể quá sớm và chưa có yêu cầu rõ ràng.\nB. Sau coding hoàn tất là quá muộn, vi phạm Early Testing principle.\nC. Chỉ sau khi triển khai là quá muộn, lỗi rất tốn kém sửa chữa.\n"
         },
         {
           "id": 9,
@@ -110,7 +110,7 @@
             "Ensuring that the software meets requirements"
           ],
           "correct": 2,
-          "explanation": "The primary goals of software testing are ensuring reliability, finding defects, and verifying requirements. Maximizing coding speed is not a testing goal."
+          "explanation": "🎯 KHÁI NIỆM:\nMục tiêu chính của Software Testing bao gồm: đảm bảo độ tin cậy, tìm lỗi, và xác minh yêu cầu.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Tối đa hóa tốc độ coding KHÔNG phải là mục tiêu của testing, thậm chí có thể xung đột.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Đảm bảo phần mềm tin cậy và ổn định là mục tiêu chính.\nB. Tìm lỗi chính xác là mục tiêu cơ bản của testing.\nD. Đảm bảo phần mềm đáp ứng yêu cầu là mục tiêu quan trọng.\n"
         },
         {
           "id": 10,
@@ -122,7 +122,7 @@
             "All of the above"
           ],
           "correct": 3,
-          "explanation": "Automated testing can perform complex tests that are difficult for humans, is more accurate and repeatable, and is faster than manual testing."
+          "explanation": "🎯 KHÁI NIỆM:\nAutomated Testing có thể thực hiện các bài kiểm thử phức tạp, chính xác hơn, có thể lặp lại, và nhanh hơn kiểm thử thủ công.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Tất cả ba lợi ích (thực hiện bài kiểm thử phức tạp, chính xác/lặp lại, nhanh hơn) đều đúng.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Chỉ một phần lợi ích.\nB. Chỉ một phần lợi ích.\nC. Chỉ một phần lợi ích - cần chọn tất cả.\n"
         }
       ]
     },
@@ -140,7 +140,7 @@
             "Test Execution"
           ],
           "correct": 2,
-          "explanation": "Test Design phase involves creating test scripts, test cases, and preparing test data that will be executed during the Test Execution phase."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Design Phase: Giai đoạn tạo test scripts, test cases, và chuẩn bị test data sẽ được thực thi trong Test Execution.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Test Design chính xác là giai đoạn tạo test scripts và chuẩn bị test data.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning định nghĩa scope/objectives, không tạo test scripts.\nB. Test Closure kết thúc hoạt động kiểm thử, không tạo scripts.\nD. Test Execution chạy test, không tạo test data.\n"
         },
         {
           "id": 2,
@@ -152,7 +152,7 @@
             "Test Execution"
           ],
           "correct": 1,
-          "explanation": "Test Planning is the first phase of STLC where the scope, objectives, resources, schedule, and overall testing strategy are defined."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Planning: Giai đoạn đầu tiên của STLC nơi scope, objectives, resources, schedule, và overall testing strategy được định nghĩa.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Planning là giai đoạn định nghĩa tất cả những yếu tố này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure kết thúc, không lập kế hoạch.\nC. Test Design tạo test cases dựa trên kế hoạch, không định nghĩa scope.\nD. Test Execution chạy test, không lập kế hoạch.\n"
         },
         {
           "id": 3,
@@ -164,7 +164,7 @@
             "Test Design"
           ],
           "correct": 3,
-          "explanation": "Test Design phase involves developing test cases based on software requirements, creating detailed test scenarios and scripts."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Design Phase: Test cases được phát triển dựa trên yêu cầu phần mềm, tạo ra các tình huống kiểm thử và scripts chi tiết.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Test Design chính xác phát triển test cases từ yêu cầu.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution chạy các test cases đã được tạo.\nB. Test Planning định nghĩa kế hoạch chứ không tạo test cases.\nC. Test Closure kết thúc kiểm thử, không phát triển test cases.\n"
         },
         {
           "id": 4,
@@ -176,7 +176,7 @@
             "Test Planning"
           ],
           "correct": 2,
-          "explanation": "Refer to the software testing fundamentals and best practices."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn chạy test cases và so sánh kết quả thực tế với kết quả dự kiến.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Test Execution so sánh kết quả thực tế vs kết quả dự kiến.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure không so sánh kết quả.\nB. Test Design tạo test cases, không so sánh kết quả.\nD. Test Planning không thực thi hoặc so sánh kết quả.\n"
         },
         {
           "id": 5,
@@ -188,7 +188,7 @@
             "Test Execution"
           ],
           "correct": 2,
-          "explanation": "Refer to the software testing fundamentals and best practices."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn đảm bảo tất cả các sản phẩm kiểm thử được hoàn thiện, lưu trữ, và kết thúc chính thức các hoạt động kiểm thử.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Test Closure chính xác hoàn thiện và lưu trữ tất cả sản phẩm.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning định nghĩa kế hoạch, không hoàn thiện sản phẩm.\nB. Test Design tạo test cases, không lưu trữ.\nD. Test Execution chạy test, không kết thúc hoạt động.\n"
         },
         {
           "id": 6,
@@ -200,7 +200,7 @@
             "To plan the testing activities"
           ],
           "correct": 2,
-          "explanation": "Refer to the software testing fundamentals and best practices."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn chạy các test cases đã được chuẩn bị để kiểm thử phần mềm.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Mục đích Test Execution là chạy test cases.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Closure kết thúc kiểm thử, không chạy test.\nB. Phân tích kết quả là một phần của Test Execution nhưng không phải mục đích chính.\nD. Test Planning lập kế hoạch, không chạy test.\n"
         },
         {
           "id": 7,
@@ -212,7 +212,7 @@
             "To execute test cases"
           ],
           "correct": 2,
-          "explanation": "Refer to the software testing fundamentals and best practices."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn chính thức kết thúc các hoạt động kiểm thử, lưu trữ tài liệu, và đảm bảo tất cả sản phẩm đã hoàn tất.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Mục tiêu chính của Test Closure là chính thức kết thúc các hoạt động kiểm thử.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Đóng lỗi không phải mục tiêu chính của Test Closure.\nB. Thiết kế test cases là công việc của Test Design, không Closure.\nD. Thực thi test cases là công việc của Test Execution, không Closure.\n"
         },
         {
           "id": 8,
@@ -224,7 +224,7 @@
             "Test Planning"
           ],
           "correct": 1,
-          "explanation": "Refer to the software testing fundamentals and best practices."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Closure Phase: Giai đoạn tóm tắt các hoạt động kiểm thử và chuẩn bị test summary report.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Closure tóm tắt hoạt động và chuẩn bị test summary report.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution chạy test, không tóm tắt hoạt động.\nC. Test Design tạo test cases, không chuẩn bị summary report.\nD. Test Planning lập kế hoạch, không chuẩn bị summary report.\n"
         },
         {
           "id": 9,
@@ -236,7 +236,7 @@
             "Test Closure"
           ],
           "correct": 2,
-          "explanation": "Refer to the software testing fundamentals and best practices."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Execution Phase: Giai đoạn thực hiện kiểm thử thực tế của phần mềm bằng cách chạy test cases.\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\nTùy chọn C đúng: Kiểm thử thực tế được thực hiện trong Test Execution phase.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Planning lập kế hoạch, không thực thi.\nB. Test Design tạo test cases, không thực thi.\nD. Test Closure kết thúc kiểm thử, không thực thi.\n"
         },
         {
           "id": 10,
@@ -248,7 +248,7 @@
             "Test Closure"
           ],
           "correct": 1,
-          "explanation": "Refer to the software testing fundamentals and best practices."
+          "explanation": "🎯 KHÁI NIỆM:\nTest Planning Phase: Giai đoạn đầu tiên của STLC nơi định nghĩa scope, objectives, resources, schedule, và overall testing strategy.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Test Planning là giai đoạn đầu tiên trong STLC.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Test Execution không phải giai đoạn đầu tiên.\nC. Test Design không phải giai đoạn đầu tiên.\nD. Test Closure không phải giai đoạn đầu tiên.\n"
         }
       ]
     },
@@ -265,7 +265,8 @@
             "To test the integration between different modules",
             "To validate that the system meets the business requirements"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\nAcceptance Testing (UAT) xác minh rằng hệ thống đáp ứng các yêu cầu kinh doanh được xác định.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn D đúng: Acceptance Testing xác thực hệ thống đáp ứng yêu cầu kinh doanh.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Unit Testing xác minh đơn vị riêng lẻ, không yêu cầu kinh doanh.\nB. Integration Testing kiểm thử tương tác giữa các component, không yêu cầu kinh doanh.\nC. System Testing kiểm thử toàn bộ hệ thống nhưng rộng hơn.\n"
         },
         {
           "id": 2,
@@ -276,7 +277,8 @@
             "User Acceptance Testing",
             "Unit Testing"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\nRegression Testing: Kiểm thử để đảm bảo các phần mềm vẫn hoạt động sau thay đổi, có thể thực hiện ở mọi mức độ testing.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\nTùy chọn C đúng: Regression Testing có thể được thực hiện ở tất cả các mức độ testing, bao gồm User Acceptance Testing.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing không chuyên biệt cho Integration Testing.\nB. Regression Testing không chuyên biệt cho System Testing.\nC. Không đúng so với khái niệm.\n"
         },
         {
           "id": 3,
@@ -287,7 +289,8 @@
             "Integration Testing",
             "Unit Testing"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\nDeployment Testing: Kiểm thử để đảm bảo phần mềm có thể triển khai và chạy trong môi trường đích một cách thành công.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Deployment Testing đảm bảo phần mềm có thể chạy trong môi trường đích.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. System Testing kiểm thử toàn bộ hệ thống, không chuyên biệt về triển khai.\nC. Integration Testing kiểm thử tương tác giữa components, không triển khai.\nD. Unit Testing kiểm thử đơn vị, không triển khai.\n"
         },
         {
           "id": 4,
@@ -298,7 +301,8 @@
             "System Testing",
             "Acceptance Testing"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\nIntegration Testing: Mức kiểm thử tập trung vào tương tác giữa các component khác nhau hoặc hệ thống để xác minh chúng hoạt động cùng nhau.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Integration Testing chính xác tập trung vào tương tác giữa các component.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Unit Testing kiểm thử đơn vị riêng lẻ, không tương tác.\nC. System Testing kiểm thử toàn bộ hệ thống, rộng hơn integration.\nD. Acceptance Testing kiểm thử yêu cầu kinh doanh, không component.\n"
         },
         {
           "id": 5,
@@ -309,7 +313,8 @@
             "To verify that each unit of the software functions correctly",
             "To validate the integration of different components or systems"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\nSystem Testing: Mức kiểm thử đảm bảo toàn bộ hệ thống đáp ứng các yêu cầu được xác định và hoạt động chính xác.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\nTùy chọn A đúng: Mục tiêu chính của System Testing là đảm bảo hệ thống đáp ứng yêu cầu.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. Kiểm thử trong môi trường như production là một phần nhưng không phải mục tiêu chính.\nC. Unit Testing kiểm thử đơn vị, không toàn bộ hệ thống.\nD. Tích hợp component là Integration Testing, không System Testing.\n"
         },
         {
           "id": 6,
@@ -320,7 +325,8 @@
             "To verify the correctness of individual units",
             "To ensure the system meets the specified requirements"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nNon-Functional Testing: Kiểm thử cách phần mềm thực hiện dưới các điều kiện cụ thể (hiệu suất, bảo mật, usability).\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Non-Functional Testing kiểm thử hiệu năng dưới các điều kiện cụ thể.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Tích hợp component là Functional Testing, không Non-Functional.\nC. Unit Testing kiểm thử chức năng, không Non-Functional.\nD. Yêu cầu kinh doanh là Acceptance Testing, không Non-Functional.\n"
         },
         {
           "id": 7,
@@ -331,7 +337,8 @@
             "System Testing",
             "Unit Testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nAcceptance Testing (UAT): Thường kiểm thử phần mềm trong môi trường giả lập hoặc môi trường production thực tế.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Acceptance Testing bao gồm kiểm thử trong môi trường giả lập hoặc production.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Integration Testing kiểm thử component, không environment.\nC. System Testing toàn bộ hệ thống trong controlled environment.\nD. Unit Testing kiểm thử đơn vị, không environment.\n"
         },
         {
           "id": 8,
@@ -342,7 +349,8 @@
             "Functional Testing",
             "Acceptance Testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nNon-Functional Testing: Kiểm thử các khía cạnh như bảo mật, hiệu suất, usability và các yêu cầu phi chức năng khác.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Non-Functional Testing liên quan đến bảo mật, hiệu suất, usability.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Regression Testing đảm bảo không bị side effects sau thay đổi.\nC. Functional Testing kiểm thử chức năng, không hiệu suất/bảo mật.\nD. Acceptance Testing kiểm thử yêu cầu kinh doanh.\n"
         },
         {
           "id": 9,
@@ -353,7 +361,8 @@
             "Integration Testing",
             "Unit Testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nUser Acceptance Testing (UAT): Thường được thực hiện bởi end-users hoặc clients để xác minh phần mềm đáp ứng nhu cầu của họ.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: User Acceptance Testing được thực hiện bởi end-users/clients.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. System Testing được thực hiện bởi QA team, không end-users.\nC. Integration Testing được thực hiện bởi QA team, không end-users.\nD. Unit Testing được thực hiện bởi developers, không end-users.\n"
         },
         {
           "id": 10,
@@ -364,7 +373,8 @@
             "To validate that the system meets the specified requirements",
             "To ensure the system performs well under stress"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nUnit Testing: Mức kiểm thử tập trung vào kiểm thử các component hoặc module riêng lẻ trong cách ly.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Unit Testing kiểm thử các component riêng lẻ trong cách ly.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Toàn bộ hệ thống là System Testing, không Unit Testing.\nC. Yêu cầu kinh doanh là Acceptance Testing, không Unit Testing.\nD. Hiệu suất dưới áp lực là Performance Testing, không Unit Testing.\n"
         }
       ]
     },
@@ -381,7 +391,8 @@
             "Component testing",
             "Acceptance testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nFunctional Testing là một loại testing kiểm thử các chức năng của phần mềm dựa trên yêu cầu.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Functional Testing là một Test Type kiểm thử chức năng.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. System Testing là Test Level, không phải Test Type.\nC. Component Testing là Test Level, không phải Test Type.\nD. Acceptance Testing là Test Level, không phải Test Type.\n"
         },
         {
           "id": 2,
@@ -392,7 +403,8 @@
             "Re-testing looks for unexpected side-effects; Regression Testing ensures that previously found bugs are fixed.",
             "Re-testing is performed by developers; Regression Testing is performed by independent testers."
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nRe-testing: Đảm bảo các lỗi đã tìm thấy được sửa chữa. Regression Testing: Tìm kiếm hiệu ứng phụ không mong muốn từ các thay đổi.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\nTùy chọn B đúng: Re-testing kiểm tra lỗi được sửa; Regression Testing tìm hiệu ứng phụ.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. Thực hiện trước/sau không có căn cứ rõ ràng, chúng xảy ra song song.\nC. Ngược lại với B.\nD. Cả developers và testers thực hiện cả hai loại, không riêng biệt theo vai trò.\n"
         },
         {
           "id": 3,
@@ -403,7 +415,8 @@
             "Testing system features using only the software necessary for that action.",
             "Testing to see where in the system the function is not working correctly."
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Testing the system's quality attributes, including performance and usability.' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Testing system features using only the software necessary for that function.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Testing system features using only the software necessary for that action.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Testing to see where in the system the function is not working correctly.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -414,7 +427,8 @@
             "i",
             "iii"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'ii & iii' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'i & ii' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'i' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'iii' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -425,7 +439,8 @@
             "Testing the system's functions in relation to other systems.",
             "Testing the overall end-to-end functionality of the system."
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Testing the overall end-to-end functionality of the system.' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Testing the components containing the system's functions.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Testing whether the system performs functions within a specified time frame.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Testing the system's functions in relation to other systems.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -436,7 +451,8 @@
             "Confirmation Testing",
             "Negative Testing"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Regression Testing' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Re-testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Confirmation Testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Negative Testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -452,7 +468,8 @@
             "Khả năng của phần mềm để được sửa chữa và cải tiến dễ dàng",
             "Khả năng của phần mềm để thích nghi với yêu cầu thay đổi"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Khả năng của phần mềm để được sửa chữa và cải tiến dễ dàng' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Khả năng của phần mềm để phục hồi sau sự cố' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Khả năng của phần mềm để thích nghi với yêu cầu thay đổi' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -462,7 +479,8 @@
             "Bảo mật hệ thống khỏi các cuộc tấn công",
             "Phát hiện và ngăn chặn lỗi có thể gây nguy hiểm cho người dùng hoặc dữ liệu"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Phát hiện và ngăn chặn lỗi có thể gây nguy hiểm cho người dùng hoặc dữ liệu' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Tốc độ xử lý của phần mềm khi gặp tình huống khẩn cấp' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Bảo mật hệ thống khỏi các cuộc tấn công' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -472,7 +490,8 @@
             "Độ tin cậy, khả năng bảo trì, tính tương thích",
             "Tính năng, khả năng sử dụng, tính bảo mật"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Tốc độ xử lý, thời gian phản hồi, sử dụng tài nguyên' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Độ tin cậy, khả năng bảo trì, tính tương thích' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Tính năng, khả năng sử dụng, tính bảo mật' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -482,7 +501,8 @@
             "Để giúp phần mềm dễ dàng sửa lỗi khi gặp sự cố",
             "Để tăng tốc độ thực thi của phần mềm"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Để giúp phần mềm dễ dàng thích nghi với các yêu cầu hoặc thay đổi mới' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Để giúp phần mềm dễ dàng sửa lỗi khi gặp sự cố' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Để tăng tốc độ thực thi của phần mềm' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -492,7 +512,8 @@
             "Tính bảo trì (Maintainability)",
             "Tính khả dụng (Usability)"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Tính tin cậy (Reliability)' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Tính bảo trì (Maintainability)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Tính khả dụng (Usability)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -502,7 +523,8 @@
             "Tính khả dụng (Usability)",
             "Tính bảo mật (Security)"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Tính bảo mật (Security)' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Tính hiệu suất (Performance)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Tính khả dụng (Usability)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -512,7 +534,8 @@
             "Khả năng tùy biến giao diện người dùng",
             "Khả năng xử lý lỗi và thông báo cho người dùng"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Khả năng tương thích với các phần cứng khác nhau' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Khả năng tùy biến giao diện người dùng' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Khả năng xử lý lỗi và thông báo cho người dùng' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -522,7 +545,8 @@
             "Tính năng (Functionality)",
             "Tính khả dụng (Usability)"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Tính năng (Functionality)' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Tính bảo mật (Security)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Tính khả dụng (Usability)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 9,
@@ -532,7 +556,8 @@
             "Tính khả dụng (Usability)",
             "Tính bảo mật (Security)"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Tính khả dụng (Usability)' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Tính tin cậy (Reliability)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Tính bảo mật (Security)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 10,
@@ -542,7 +567,8 @@
             "Tính tin cậy (Reliability)",
             "Tính hiệu suất (Performance)"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Tính tương thích (Compatibility)' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Tính tin cậy (Reliability)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Tính hiệu suất (Performance)' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -559,7 +585,8 @@
             "To create additional test cases",
             "To write code"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'To identify who is responsible for what in the testing process' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'To assign blame in case of project failure' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'To create additional test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'To write code' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -570,7 +597,8 @@
             "Defining the test schedule",
             "Identifying potential project risks that may impact testing"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Identifying potential project risks that may impact testing' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Writing test scripts' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Executing test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Defining the test schedule' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -581,7 +609,8 @@
             "A test case outlines the testing approach, while a test plan details the steps to execute a specific test.",
             "Both terms are interchangeable."
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'A test plan outlines the testing approach, while a test case details the steps to execute a specific test.' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Test cases and test plans serve the same purpose.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'A test case outlines the testing approach, while a test plan details the steps to execute a specific test.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Both terms are interchangeable.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -592,7 +621,8 @@
             "To estimate the testing effort",
             "To create test cases"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'To determine when testing should start and end' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'To identify bugs in the code' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'To estimate the testing effort' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'To create test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -603,7 +633,8 @@
             "During coding",
             "During requirements gathering"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Before testing' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'After testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'During coding' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'During requirements gathering' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -614,7 +645,8 @@
             "Test schedule",
             "Test case details"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Hardware and software requirements' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Risk analysis' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Test schedule' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Test case details' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -625,7 +657,8 @@
             "Customers",
             "Project managers"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Project managers' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Developers' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Testers' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Customers' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -636,7 +669,8 @@
             "It defines the overall testing approach",
             "It schedules the testing activities"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'It defines the overall testing approach' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'It identifies bugs in the software' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'It lists detailed test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'It schedules the testing activities' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 9,
@@ -647,7 +681,8 @@
             "Guiding the testing process",
             "Executing test cases"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Guiding the testing process' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Identifying bugs' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Writing code' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Executing test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 10,
@@ -658,7 +693,8 @@
             "The number of test cases executed",
             "The percentage of bugs found"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'The scope of testing in terms of requirements covered' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The time taken to execute test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The number of test cases executed' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'The percentage of bugs found' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -675,7 +711,8 @@
             "Test Planning",
             "Code Development"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Code Development' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Risk Analysis' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Test Monitoring and Control' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Test Planning' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -686,7 +723,8 @@
             "Test Implementation",
             "Test Execution"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Test Planning' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Test Design' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Test Implementation' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Test Execution' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -697,7 +735,8 @@
             "Deciding the software's release date",
             "Determining the project's total cost"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Approximately determining how long a task would take to complete' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Assigning tasks to team members' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Deciding the software's release date' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Determining the project's total cost' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -708,7 +747,8 @@
             "Reducing the cost of software development",
             "Focusing only on automated testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Ensuring high quality and effectiveness of software testing' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Designing complex test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Reducing the cost of software development' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Focusing only on automated testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -719,7 +759,8 @@
             "Designing test scenarios",
             "Analyzing software requirement specifications"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Building up the test environment' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Reporting the defects' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Designing test scenarios' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Analyzing software requirement specifications' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -730,7 +771,8 @@
             "Wideband Delphi technique",
             "Work Breakdown Structure"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Agile Methodology' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Function Point Analysis' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Wideband Delphi technique' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Work Breakdown Structure' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -741,7 +783,8 @@
             "To develop the software",
             "To design test cases"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'To ensure the testing process runs as expected' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'To train new team members' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'To develop the software' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'To design test cases' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -752,7 +795,8 @@
             "Organization risk",
             "Product risk"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Product risk' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Technical risk' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Business risk' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Organization risk' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 9,
@@ -763,7 +807,8 @@
             "Estimating the cost for each task",
             "Assigning tasks to team members"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Dividing the whole project task into subtasks' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Calculating the total project duration' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Estimating the cost for each task' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Assigning tasks to team members' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 10,
@@ -774,7 +819,8 @@
             "1",
             "10"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'5' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. '3' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. '1' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. '10' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -789,7 +835,8 @@
             "positive test case",
             "negative test case"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'negative test case' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'positive test case' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -800,7 +847,8 @@
             "Hardware - software - network",
             "Software - hardware - network"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Hardware - software - network' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Network - software - hardware' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Hardware - network - software' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Software - hardware - network' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -811,7 +859,8 @@
             "The test case is executed and the actual result is the same as the expected result.",
             "The test case is not executed."
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'The test case can't be executed.' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'The test case is executed and the actual result is different from the expected result.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The test case is executed and the actual result is the same as the expected result.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'The test case is not executed.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -820,7 +869,8 @@
             "False",
             "True"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'False' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'True' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -831,7 +881,8 @@
             "Steps to reproduce",
             "Expected result"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\nĐây là câu hỏi về Test Execution - giai đoạn chạy test cases.\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Actual result' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Title' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Steps to reproduce' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Expected result' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -840,7 +891,8 @@
             "True",
             "False"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'False' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'True' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -851,7 +903,8 @@
             "Precondition",
             "Test steps"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Precondition' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Test case title' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Expected result' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Test steps' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -861,7 +914,8 @@
             "We were not able to execute the test case because it depends on another test case that is not passed",
             "We executed the test case and the actual result is different than the expected result"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'We were not able to execute the test case because it depends on another test case that is not passed' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'We executed the test case and the actual result is the same as the expected result' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'We executed the test case and the actual result is different than the expected result' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 9,
@@ -872,7 +926,8 @@
             "Test suite",
             "Test condition"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Test condition' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Bug report' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Test progress report' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Test suite' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 10,
@@ -883,7 +938,8 @@
             "System & Acceptance Testing",
             "Unit & Integration Testing"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Any test level can have written test cases for it' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Only System Testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'System & Acceptance Testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Unit & Integration Testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -900,7 +956,8 @@
             "The software version number",
             "Expected and actual results"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Expected and actual results' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The cost of fixing the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'The name of the person who found the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The software version number' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -911,7 +968,8 @@
             "The severity level of the bug",
             "The timeline for the next software update"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'The current state of the bug (e.g., New, Closed, Reopened)' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'The location where the bug was found' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The severity level of the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'The timeline for the next software update' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -922,7 +980,8 @@
             "To request new software features",
             "To provide a user manual for software"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'To document how a bug was found and request its fix' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'To evaluate the performance of testers' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'To request new software features' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'To provide a user manual for software' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -933,7 +992,8 @@
             "The color scheme of the software",
             "The geographical location of the bug reporter"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'The impact of the bug on core functionalities' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The software release date' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The color scheme of the software' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'The geographical location of the bug reporter' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -944,7 +1004,8 @@
             "The bug report is incomplete and requires additional information",
             "The bug has already been reported and logged earlier"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'The bug has already been reported and logged earlier' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The bug is being worked on by multiple developers' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'The bug is critical and needs immediate attention' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The bug report is incomplete and requires additional information' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -955,7 +1016,8 @@
             "The bug has been fixed and is pending review",
             "The bug, previously marked as resolved, has reappeared or was not fixed"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'The bug, previously marked as resolved, has reappeared or was not fixed' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The bug report has been reviewed and needs more information' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'The bug is considered a low priority and will be fixed later' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The bug has been fixed and is pending review' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -966,7 +1028,8 @@
             "The category of the bug",
             "A unique identification number for the bug"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'A unique identification number for the bug' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The sequence in which bugs are fixed' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'The person who reported the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The category of the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -977,7 +1040,8 @@
             "Relating to the defect fixing urgency",
             "According to the number of reports about the bug"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Relating to the defect fixing urgency' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Based on the developer's availability' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'By the age of the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'According to the number of reports about the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 9,
@@ -988,7 +1052,8 @@
             "Problem summary",
             "Name of the customer"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Name of the customer' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Bug ID' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Function name where the bug was found' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Problem summary' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 10,
@@ -999,7 +1064,8 @@
             "The number of users affected by the bug",
             "The complexity of the bug"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'The impact of the defect on the application' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The urgency with which the bug should be fixed' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The number of users affected by the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'The complexity of the bug' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -1016,7 +1082,8 @@
             "Three major categories: black-box, white-box, and grey-box",
             "Three major categories: boundary value, decision table, and state transition"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Three major categories: black-box, white-box, and grey-box' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Four major categories: test cases, test procedures, test suites, and test characters' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Two major categories: likelihood and impact analysis' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Three major categories: boundary value, decision table, and state transition' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -1027,7 +1094,8 @@
             "Grey-box testing",
             "Black-box testing"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Grey-box testing' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'White-box testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Black-box testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -1038,7 +1106,8 @@
             "White-box test technique",
             "Experience-based test technique"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Black-box test technique' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'None of the above' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'White-box test technique' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Experience-based test technique' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -1049,7 +1118,8 @@
             "A sequence of instructions for test execution",
             "A procedure used to define test conditions, design test cases, and specify test data"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'A procedure used to define test conditions, design test cases, and specify test data' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Documentation of test activities in session-based exploratory testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'A set of test scripts or test procedures to be executed in a specific test run' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'A sequence of instructions for test execution' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -1060,7 +1130,8 @@
             "Experience-based test technique",
             "White-box test technique"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\nĐây là câu hỏi về Test Design - giai đoạn tạo test cases.\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'White-box test technique' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Black-box test technique' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'None of the above' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Experience-based test technique' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -1077,7 +1148,8 @@
             "Equivalence partitioning",
             "Decision table testing"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Equivalence partitioning' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'State transition testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Use cases testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Decision table testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -1088,7 +1160,8 @@
             "Equivalence classes",
             "Sub partitions"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Invalid equivalence partitions' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Valid equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Equivalence classes' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Sub partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -1099,7 +1172,8 @@
             "Invalid equivalence partitions",
             "Equivalence classes"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Equivalence classes' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Valid equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Sub partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Invalid equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -1110,7 +1184,8 @@
             "Any partition may be divided into sub-partitions if required",
             "Each value can belong to one or more equivalence partition"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Each value must belong to one and only one equivalence partition' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Any partition may be divided into sub-partitions if required' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Each value can belong to one or more equivalence partition' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -1121,7 +1196,8 @@
             "The number of boundary values tested, divided by the total number of identified equivalence partitions",
             "The number of boundary values tested, divided by the total number of identified boundary test values"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'The number of boundary values tested, divided by the total number of identified boundary test values' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'None of above' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'The number of tested equivalence partitions, divided by the total number of identified boundary test values' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The number of boundary values tested, divided by the total number of identified equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -1132,7 +1208,8 @@
             "The number of equivalence partitions tested by at least TWO values, divided by the total number of identified equivalence partitions",
             "The number of equivalence partitions tested by at least ONE value, divided by the total number of identified equivalence partitions"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'The number of equivalence partitions tested by at least ONE value, divided by the total number of identified equivalence partitions' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'The number of equivalence partitions tested by at least THREE values, divided by the total number of identified equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'The number of equivalence partitions tested by at least FOUR values, divided by the total number of identified equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The number of equivalence partitions tested by at least TWO values, divided by the total number of identified equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -1143,7 +1220,8 @@
             "Equivalence classes",
             "Invalid equivalence partitions"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Valid equivalence partitions' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Sub partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Equivalence classes' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Invalid equivalence partitions' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -1154,7 +1232,8 @@
             "Unit testing, integration testing, system testing and acceptance testing",
             "Unit testing only"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Unit testing, integration testing, system testing and acceptance testing' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Unit testing, integration testing and system testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Unit testing and integration testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Unit testing only' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -1171,7 +1250,8 @@
             "n^2",
             "n+2"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'2^n' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. '2*n' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'n^2' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'n+2' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -1182,7 +1262,8 @@
             "To have at least four test cases per decision rule in the table",
             "To have at least one test case per decision rule in the table"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'To have at least one test case per decision rule in the table' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'To have at least two test cases per decision rule in the table' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'To have at least three test cases per decision rule in the table' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'To have at least four test cases per decision rule in the table' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -1193,7 +1274,8 @@
             "decision rule",
             "decision partition"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'decision rule' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'decision coverage' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'decision partition' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -1204,7 +1286,8 @@
             "Boolean or discrete values / different types",
             "Discrete values only / different types"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Boolean or discrete values / different types' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Discrete value only / same types' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Boolean or discrete value / same types' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Discrete values only / different types' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -1215,7 +1298,8 @@
             "Decision Table",
             "Equivalence Partitioning"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Decision Table' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Boundary-Value Analysis' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Decision Coverage' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Equivalence Partitioning' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -1226,7 +1310,8 @@
             "The number of decision rules tested by at least two test cases, divided by the total number of decision rules",
             "The number of decision rules tested by at least three test cases, divided by the total number of decision rules"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'The number of decision rules tested by at least one test case, divided by the total number of decision rules' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The number of decision rules tested by at least two test cases, divided by the total number of decision rules' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'The number of decision rules tested by at least three test cases, divided by the total number of decision rules' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -1237,7 +1322,8 @@
             "The number of valid events, divided by the total number of states or transitions in the test object",
             "The number of invalid events, divided by the total number of states or transitions in the test object"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'The number of states or transitions tested, divided by the total number of states or transitions in the test object' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'The number of valid events, divided by the total number of states or transitions in the test object' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'The number of invalid events, divided by the total number of states or transitions in the test object' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -1248,7 +1334,8 @@
             "A state transition diagram shows only the possible software states",
             "Not applicable"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'A state transition diagram shows only the possible software states' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'A state transition diagram shows only the impossible software states' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'A state transition diagram shows both the possible and impossible software states' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 9,
@@ -1259,7 +1346,8 @@
             "Not applicable",
             "Not applicable"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'True' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'False' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 10,
@@ -1270,7 +1358,8 @@
             "It covers all the possible conditions.",
             "It is a black-box technique."
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'All the previous' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'It is used to test the behavior of a system under varying inputs.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'It covers all the possible conditions.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'It is a black-box technique.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     },
@@ -1287,7 +1376,8 @@
             "Boundary value analysis",
             "White-box testing"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Scenario-based testing' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Stress testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Boundary value analysis' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'White-box testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 2,
@@ -1298,7 +1388,8 @@
             "1, 2, 3 are true",
             "1, 2, 3 are false"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\nĐây là câu hỏi về Test Design - giai đoạn tạo test cases.\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'1, 2 are true / 3 is false' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. '1 is true / 2, 3 are false' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. '1, 2, 3 are true' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. '1, 2, 3 are false' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 3,
@@ -1309,7 +1400,8 @@
             "It emphasizes the interaction between the system and its users.",
             "It is primarily concerned with system architecture."
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'It emphasizes the interaction between the system and its users.' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'It focuses solely on unit testing.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'It is only applicable during the development phase.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'It is primarily concerned with system architecture.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 4,
@@ -1320,7 +1412,8 @@
             "only two actors",
             "only one actor"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'one or more actors' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Not applicable' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'only two actors' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'only one actor' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 5,
@@ -1331,7 +1424,8 @@
             "Testing the functionality of a system based on scenarios that represent real-world usage.",
             "Testing the security features of a software application."
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Testing the functionality of a system based on scenarios that represent real-world usage.' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Testing individual components of a system.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Testing the performance of a system under heavy load.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Testing the security features of a software application.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 6,
@@ -1342,7 +1436,8 @@
             "Rapid UI changes",
             "High cost of software"
           ],
-          "correct": 2
+          "correct": 2,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án C):\n'Rapid UI changes' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Limited programming languages' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Lack of user feedback' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'High cost of software' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 7,
@@ -1353,7 +1448,8 @@
             "Using less complex UI",
             "Increasing team size"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Implementing a robust test automation framework' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Reducing testing frequency' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Using less complex UI' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Increasing team size' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 8,
@@ -1364,7 +1460,8 @@
             "Performance issues in the backend",
             "Alignment and layout issues in the interface"
           ],
-          "correct": 3
+          "correct": 3,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án D):\n'Alignment and layout issues in the interface' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'Database connectivity problems' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nB. 'Server-side errors' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Performance issues in the backend' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 9,
@@ -1375,7 +1472,8 @@
             "Limiting the testing to critical functions only",
             "Reducing the scope of testing"
           ],
-          "correct": 0
+          "correct": 0,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án A):\n'Developing a comprehensive test strategy' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nB. 'Increasing the number of testers' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Limiting the testing to critical functions only' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Reducing the scope of testing' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         },
         {
           "id": 10,
@@ -1386,7 +1484,8 @@
             "Limited access to testing tools",
             "Inconsistent team skill levels"
           ],
-          "correct": 1
+          "correct": 1,
+          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Difficulty in creating and managing test data' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'High costs of software licenses' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Limited access to testing tools' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Inconsistent team skill levels' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
     }
