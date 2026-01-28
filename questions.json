@@ -1,0 +1,1374 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fundamentals of Software Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the role of a test plan in software testing?",
+          "options": [
+            "To provide a schedule for the software release",
+            "To document the overall testing strategy and approach",
+            "To specify the features to be included in the software",
+            "To outline the coding standards for the development team"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "question": "What is the main purpose of a test case?",
+          "options": [
+            "To outline the project schedule",
+            "To identify defects in the software",
+            "To document the software development process",
+            "To design the user interface of the software"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "question": "Which testing level focuses on the overall system integration?",
+          "options": [
+            "Regression testing",
+            "Integration testing",
+            "Acceptance testing",
+            "Unit testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of usability testing?",
+          "options": [
+            "To ensure the software can handle a large number of users",
+            "To evaluate the software's user interface and overall user experience",
+            "To check the performance of the software under stress",
+            "To verify that the software meets specific business requirements"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "question": "What is software testing?",
+          "options": [
+            "The process of designing software",
+            "The process of finding bugs in software",
+            "The process of maintaining software",
+            "The process of creating software"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "question": "Which testing phase helps ensure that the software works correctly after changes are made?",
+          "options": [
+            "System testing",
+            "Regression testing",
+            "Performance testing",
+            "Unit testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "question": "What is the difference between static testing and dynamic testing?",
+          "options": [
+            "Static testing is performed before coding, and dynamic testing is performed after coding",
+            "Static testing involves executing the code, and dynamic testing involves reviewing the code",
+            "Static testing is performed by developers, and dynamic testing is performed by testers",
+            "There is no difference between static testing and dynamic testing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "When should testing activities ideally begin in the software development life cycle?",
+          "options": [
+            "Before the design phase",
+            "After coding is complete",
+            "Only after the software is deployed",
+            "During the requirements gathering phase"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is NOT a primary goal of software testing?",
+          "options": [
+            "Ensuring the software is reliable and stable",
+            "Finding defects in the software",
+            "Maximizing the development team's coding speed",
+            "Ensuring that the software meets requirements"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "question": "What is the significance of automated testing?",
+          "options": [
+            "It can perform tests that are difficult for humans",
+            "It is more accurate and repeatable",
+            "It is faster than manual testing",
+            "All of the above"
+          ],
+          "correct": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Software Testing Life Cycle (STLC)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "In which phase are test scripts and test data prepared?",
+          "options": [
+            "Test Planning",
+            "Test Closure",
+            "Test Design",
+            "Test Execution"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "question": "Which phase involves defining the scope, objectives, resources, and schedule for testing?",
+          "options": [
+            "Test Closure",
+            "Test Planning",
+            "Test Design",
+            "Test Execution"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "question": "During which phase are test cases developed based on the software requirements?",
+          "options": [
+            "Test Execution",
+            "Test Planning",
+            "Test Closure",
+            "Test Design"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "question": "Which phase involves comparing the actual results with the expected results?",
+          "options": [
+            "Test Closure",
+            "Test Design",
+            "Test Execution",
+            "Test Planning"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 5,
+          "question": "Which phase ensures that all the test deliverables are finalized and archived?",
+          "options": [
+            "Test Planning",
+            "Test Design",
+            "Test Closure",
+            "Test Execution"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "question": "What is the purpose of the Test Execution phase?",
+          "options": [
+            "To close the testing activities",
+            "To analyze test results",
+            "To execute test cases",
+            "To plan the testing activities"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "question": "What is the primary goal of the Test Closure phase?",
+          "options": [
+            "To close defects",
+            "To design test cases",
+            "To formally close the testing activities",
+            "To execute test cases"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 8,
+          "question": "Which phase involves summarizing the testing activities and preparing a test summary report?",
+          "options": [
+            "Test Execution",
+            "Test Closure",
+            "Test Design",
+            "Test Planning"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "question": "When is the actual testing of the software carried out?",
+          "options": [
+            "Test Planning",
+            "Test Design",
+            "Test Execution",
+            "Test Closure"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "question": "What is the first phase in the Software Testing Life Cycle (STLC)?",
+          "options": [
+            "Test Execution",
+            "Test Planning",
+            "Test Design",
+            "Test Closure"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Testing Levels and Types",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of Acceptance Testing?",
+          "options": [
+            "To verify the correctness of individual units",
+            "To ensure that each component functions in isolation",
+            "To test the integration between different modules",
+            "To validate that the system meets the business requirements"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "question": "Regression testing is primarily associated with which test level?",
+          "options": [
+            "Integration Testing",
+            "System Testing",
+            "User Acceptance Testing",
+            "Unit Testing"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "question": "In which test level is the main focus on ensuring that the software can be deployed and run in the target environment successfully?",
+          "options": [
+            "Deployment Testing",
+            "System Testing",
+            "Integration Testing",
+            "Unit Testing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "Which test level focuses on the interaction between different components or systems?",
+          "options": [
+            "Integration Testing",
+            "Unit Testing",
+            "System Testing",
+            "Acceptance Testing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "question": "What is the primary goal of System Testing?",
+          "options": [
+            "To ensure that the system meets the specified requirements",
+            "To test the software in a production-like environment",
+            "To verify that each unit of the software functions correctly",
+            "To validate the integration of different components or systems"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "question": "What is the primary purpose of Non-Functional Testing?",
+          "options": [
+            "To validate the integration of different components or systems",
+            "To test how well the software performs under specific conditions",
+            "To verify the correctness of individual units",
+            "To ensure the system meets the specified requirements"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "question": "Which test level typically involves testing the software in a simulated or actual production environment?",
+          "options": [
+            "Integration Testing",
+            "Acceptance Testing",
+            "System Testing",
+            "Unit Testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 8,
+          "question": "Which test level is concerned with finding defects related to security, performance, and usability?",
+          "options": [
+            "Regression Testing",
+            "Non-Functional Testing",
+            "Functional Testing",
+            "Acceptance Testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "question": "Which test level is often performed by end-users or clients?",
+          "options": [
+            "System Testing",
+            "User Acceptance Testing",
+            "Integration Testing",
+            "Unit Testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "question": "What is the purpose of the Unit Testing phase in software testing?",
+          "options": [
+            "To test the entire system as a whole",
+            "To test individual components or modules in isolation",
+            "To validate that the system meets the specified requirements",
+            "To ensure the system performs well under stress"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Test Types and Methods",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following option is a Test Type?",
+          "options": [
+            "System testing",
+            "Functional testing",
+            "Component testing",
+            "Acceptance testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "question": "The difference between Re-testing and Regression Testing is:",
+          "options": [
+            "Re-testing is done after the bugs are fixed; Regression Testing is done earlier.",
+            "Re-testing ensures that previously found bugs are fixed; Regression Testing looks for unexpected side-effects.",
+            "Re-testing looks for unexpected side-effects; Regression Testing ensures that previously found bugs are fixed.",
+            "Re-testing is performed by developers; Regression Testing is performed by independent testers."
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "question": "Non-functional system testing includes:",
+          "options": [
+            "Testing system features using only the software necessary for that function.",
+            "Testing the system's quality attributes, including performance and usability.",
+            "Testing system features using only the software necessary for that action.",
+            "Testing to see where in the system the function is not working correctly."
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "question": "Which of the following is a non-functional testing method? (i) System testing (ii) Performance testing (iii) Availability testing",
+          "options": [
+            "ii & iii",
+            "i & ii",
+            "i",
+            "iii"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "question": "Functional System Testing:",
+          "options": [
+            "Testing the components containing the system's functions.",
+            "Testing whether the system performs functions within a specified time frame.",
+            "Testing the system's functions in relation to other systems.",
+            "Testing the overall end-to-end functionality of the system."
+          ],
+          "correct": 3
+        },
+        {
+          "id": 6,
+          "question": "The repetition of testing a previously tested program after it has been changed, in order to detect new errors caused by the changes in the program, is called:",
+          "options": [
+            "Regression Testing",
+            "Re-testing",
+            "Confirmation Testing",
+            "Negative Testing"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Quality Standards (ISO/IEC 25010)",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Tính bảo trì (Maintainability) trong ISO/IEC 25010 đề cập đến điều gì?",
+          "options": [
+            "Khả năng của phần mềm để phục hồi sau sự cố",
+            "Khả năng của phần mềm để được sửa chữa và cải tiến dễ dàng",
+            "Khả năng của phần mềm để thích nghi với yêu cầu thay đổi"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "question": "Tính Safety có liên quan đến điều nào sau đây?",
+          "options": [
+            "Tốc độ xử lý của phần mềm khi gặp tình huống khẩn cấp",
+            "Bảo mật hệ thống khỏi các cuộc tấn công",
+            "Phát hiện và ngăn chặn lỗi có thể gây nguy hiểm cho người dùng hoặc dữ liệu"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "question": "Tính hiệu suất (Performance) trong ISO/IEC 25010 có thể đo bằng các yếu tố nào?",
+          "options": [
+            "Tốc độ xử lý, thời gian phản hồi, sử dụng tài nguyên",
+            "Độ tin cậy, khả năng bảo trì, tính tương thích",
+            "Tính năng, khả năng sử dụng, tính bảo mật"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "Tại sao Flexibility là một đặc tính quan trọng của phần mềm?",
+          "options": [
+            "Để giúp phần mềm dễ dàng thích nghi với các yêu cầu hoặc thay đổi mới",
+            "Để giúp phần mềm dễ dàng sửa lỗi khi gặp sự cố",
+            "Để tăng tốc độ thực thi của phần mềm"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "question": "Đặc tính nào trong ISO/IEC 25010 đề cập đến khả năng phần mềm hoạt động mà không gặp lỗi trong một khoảng thời gian nhất định?",
+          "options": [
+            "Tính tin cậy (Reliability)",
+            "Tính bảo trì (Maintainability)",
+            "Tính khả dụng (Usability)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "question": "Đặc tính nào trong ISO/IEC 25010 liên quan đến khả năng bảo vệ dữ liệu và thông tin khỏi các mối đe dọa?",
+          "options": [
+            "Tính hiệu suất (Performance)",
+            "Tính khả dụng (Usability)",
+            "Tính bảo mật (Security)"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "question": "Đặc điểm nào sau đây KHÔNG phải là một yếu tố quan trọng của Interaction Capability trong phần mềm?",
+          "options": [
+            "Khả năng tương thích với các phần cứng khác nhau",
+            "Khả năng tùy biến giao diện người dùng",
+            "Khả năng xử lý lỗi và thông báo cho người dùng"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "Đặc tính nào trong ISO/IEC 25010 đánh giá mức độ mà phần mềm có thể đáp ứng yêu cầu và mong đợi của người dùng?",
+          "options": [
+            "Tính bảo mật (Security)",
+            "Tính năng (Functionality)",
+            "Tính khả dụng (Usability)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "question": "Đặc tính nào trong ISO/IEC 25010 liên quan đến mức độ dễ dàng mà người dùng có thể sử dụng phần mềm?",
+          "options": [
+            "Tính tin cậy (Reliability)",
+            "Tính khả dụng (Usability)",
+            "Tính bảo mật (Security)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "question": "Đặc tính nào liên quan đến khả năng phần mềm hoạt động trên nhiều môi trường khác nhau?",
+          "options": [
+            "Tính tương thích (Compatibility)",
+            "Tính tin cậy (Reliability)",
+            "Tính hiệu suất (Performance)"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Test Planning and Management",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the significance of defining roles and responsibilities in a test plan?",
+          "options": [
+            "To identify who is responsible for what in the testing process",
+            "To assign blame in case of project failure",
+            "To create additional test cases",
+            "To write code"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "question": "What is the primary focus of risk analysis in a test plan?",
+          "options": [
+            "Writing test scripts",
+            "Executing test cases",
+            "Defining the test schedule",
+            "Identifying potential project risks that may impact testing"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "question": "What is the difference between a test plan and a test case?",
+          "options": [
+            "A test plan outlines the testing approach, while a test case details the steps to execute a specific test.",
+            "Test cases and test plans serve the same purpose.",
+            "A test case outlines the testing approach, while a test plan details the steps to execute a specific test.",
+            "Both terms are interchangeable."
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "What is the importance of defining the entry and exit criteria in a test plan?",
+          "options": [
+            "To identify bugs in the code",
+            "To determine when testing should start and end",
+            "To estimate the testing effort",
+            "To create test cases"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "question": "When should a test plan be created in the software development life cycle (SDLC)?",
+          "options": [
+            "Before testing",
+            "After testing",
+            "During coding",
+            "During requirements gathering"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "question": "What information is typically included in the test plan regarding the test environment?",
+          "options": [
+            "Risk analysis",
+            "Hardware and software requirements",
+            "Test schedule",
+            "Test case details"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "question": "Who is responsible for reviewing and approving the test plan?",
+          "options": [
+            "Developers",
+            "Testers",
+            "Customers",
+            "Project managers"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 8,
+          "question": "What is the purpose of a test strategy in relation to a test plan?",
+          "options": [
+            "It identifies bugs in the software",
+            "It lists detailed test cases",
+            "It defines the overall testing approach",
+            "It schedules the testing activities"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "question": "What is the primary purpose of a test plan in software testing?",
+          "options": [
+            "Identifying bugs",
+            "Writing code",
+            "Guiding the testing process",
+            "Executing test cases"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 10,
+          "question": "What does the term 'test coverage' refer to in the context of a test plan?",
+          "options": [
+            "The time taken to execute test cases",
+            "The scope of testing in terms of requirements covered",
+            "The number of test cases executed",
+            "The percentage of bugs found"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Test Management and Estimation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is not a part of the Test Management process?",
+          "options": [
+            "Risk Analysis",
+            "Test Monitoring and Control",
+            "Test Planning",
+            "Code Development"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "question": "Which aspect of Test Management involves defining the scope, approach, resources, and schedule of intended test activities?",
+          "options": [
+            "Test Design",
+            "Test Planning",
+            "Test Implementation",
+            "Test Execution"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "question": "What does Test Estimation primarily focus on?",
+          "options": [
+            "Assigning tasks to team members",
+            "Approximately determining how long a task would take to complete",
+            "Deciding the software's release date",
+            "Determining the project's total cost"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "question": "What is the primary objective of Test Management?",
+          "options": [
+            "Designing complex test cases",
+            "Ensuring high quality and effectiveness of software testing",
+            "Reducing the cost of software development",
+            "Focusing only on automated testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "question": "What is the role of a Test Administrator in the test management process?",
+          "options": [
+            "Reporting the defects",
+            "Building up the test environment",
+            "Designing test scenarios",
+            "Analyzing software requirement specifications"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "question": "Which technique is not used for Test Estimation?",
+          "options": [
+            "Function Point Analysis",
+            "Agile Methodology",
+            "Wideband Delphi technique",
+            "Work Breakdown Structure"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "question": "What is the primary goal of Test Monitoring and Control in Test Management?",
+          "options": [
+            "To ensure the testing process runs as expected",
+            "To train new team members",
+            "To develop the software",
+            "To design test cases"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "Which kind of risk does not belong to Project Risk?",
+          "options": [
+            "Technical risk",
+            "Business risk",
+            "Organization risk",
+            "Product risk"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "question": "What is the first step in test estimation using the Work Breakdown Structure technique?",
+          "options": [
+            "Calculating the total project duration",
+            "Dividing the whole project task into subtasks",
+            "Estimating the cost for each task",
+            "Assigning tasks to team members"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "question": "In the Function Point Method of test estimation, what weightage is assigned to a 'Complex' task?",
+          "options": [
+            "3",
+            "5",
+            "1",
+            "10"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Test Cases and Execution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "If you are testing an E-wallet application, and you try to transfer funds more than your balance, this is considered as a...",
+          "options": [
+            "positive test case",
+            "negative test case"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "question": "iPhone 8 - iOS 15.1 - 5G Network. Which of the following are the correct environment definitions of the previous elements?",
+          "options": [
+            "Network - software - hardware",
+            "Hardware - network - software",
+            "Hardware - software - network",
+            "Software - hardware - network"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "question": "Blocked/Skipped test case means …",
+          "options": [
+            "The test case can't be executed.",
+            "The test case is executed and the actual result is different from the expected result.",
+            "The test case is executed and the actual result is the same as the expected result.",
+            "The test case is not executed."
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "We should never fill the actual result field until executing the test case.",
+          "options": [
+            "False",
+            "True"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is a field in the test case document that should be filled in the test execution phase?",
+          "options": [
+            "Actual result",
+            "Title",
+            "Steps to reproduce",
+            "Expected result"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "question": "The following steps are the best way to write test steps: 1- Open the internet; 2- Open the laptop; 3- Open the browser; 4- Open the URL; 5- Click on the email field; 6- Enter a valid email; 7- Click on the password field; 8- Enter a valid password; 9- Click on sign in",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "question": "It is a condition that must be met before executing a test case.",
+          "options": [
+            "Test case title",
+            "Expected result",
+            "Precondition",
+            "Test steps"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 8,
+          "question": "What does a blocked/skipped test case mean?",
+          "options": [
+            "We executed the test case and the actual result is the same as the expected result",
+            "We were not able to execute the test case because it depends on another test case that is not passed",
+            "We executed the test case and the actual result is different than the expected result"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "question": "A test case is developed based on …",
+          "options": [
+            "Bug report",
+            "Test progress report",
+            "Test suite",
+            "Test condition"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "question": "Test cases should be written for which level of testing?",
+          "options": [
+            "Only System Testing",
+            "Any test level can have written test cases for it",
+            "System & Acceptance Testing",
+            "Unit & Integration Testing"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bug Reporting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What should be included in the \"How to reproduce\" section of a bug report?",
+          "options": [
+            "The cost of fixing the bug",
+            "The name of the person who found the bug",
+            "The software version number",
+            "Expected and actual results"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "question": "In bug reporting, what does the \"Status\" field indicate?",
+          "options": [
+            "The current state of the bug (e.g., New, Closed, Reopened)",
+            "The location where the bug was found",
+            "The severity level of the bug",
+            "The timeline for the next software update"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 3,
+          "question": "What is a bug report primarily used for?",
+          "options": [
+            "To document how a bug was found and request its fix",
+            "To evaluate the performance of testers",
+            "To request new software features",
+            "To provide a user manual for software"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "Which of the following is a factor in determining bug report priority?",
+          "options": [
+            "The software release date",
+            "The impact of the bug on core functionalities",
+            "The color scheme of the software",
+            "The geographical location of the bug reporter"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "question": "What does \"Status = Duplicate\" indicate in a Bug Life Cycle?",
+          "options": [
+            "The bug is being worked on by multiple developers",
+            "The bug is critical and needs immediate attention",
+            "The bug report is incomplete and requires additional information",
+            "The bug has already been reported and logged earlier"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 6,
+          "question": "What does \"Status = Re-Open\" imply in a Bug Life Cycle?",
+          "options": [
+            "The bug report has been reviewed and needs more information",
+            "The bug is considered a low priority and will be fixed later",
+            "The bug has been fixed and is pending review",
+            "The bug, previously marked as resolved, has reappeared or was not fixed"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 7,
+          "question": "What does a Bug ID represent?",
+          "options": [
+            "The sequence in which bugs are fixed",
+            "The person who reported the bug",
+            "The category of the bug",
+            "A unique identification number for the bug"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 8,
+          "question": "How is Priority determined in bug reporting?",
+          "options": [
+            "Based on the developer's availability",
+            "By the age of the bug",
+            "Relating to the defect fixing urgency",
+            "According to the number of reports about the bug"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is NOT an essential element of a bug report?",
+          "options": [
+            "Bug ID",
+            "Function name where the bug was found",
+            "Problem summary",
+            "Name of the customer"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "question": "What does Severity in a bug report indicate?",
+          "options": [
+            "The urgency with which the bug should be fixed",
+            "The impact of the defect on the application",
+            "The number of users affected by the bug",
+            "The complexity of the bug"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Testing Approaches and Techniques",
+      "questions": [
+        {
+          "id": 1,
+          "question": "The testing approaches are classified into:",
+          "options": [
+            "Four major categories: test cases, test procedures, test suites, and test characters",
+            "Two major categories: likelihood and impact analysis",
+            "Three major categories: black-box, white-box, and grey-box",
+            "Three major categories: boundary value, decision table, and state transition"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "question": "The testing approach which tests as a user with access to internals is:",
+          "options": [
+            "White-box testing",
+            "Not applicable",
+            "Grey-box testing",
+            "Black-box testing"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "question": "''Use cases'' are example of test basis for ...",
+          "options": [
+            "None of the above",
+            "Black-box test technique",
+            "White-box test technique",
+            "Experience-based test technique"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "question": "What is the definition of \"test technique\"?",
+          "options": [
+            "Documentation of test activities in session-based exploratory testing",
+            "A set of test scripts or test procedures to be executed in a specific test run",
+            "A sequence of instructions for test execution",
+            "A procedure used to define test conditions, design test cases, and specify test data"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 5,
+          "question": "\"Detailed design and internal structure\" are examples of the test basis for ….",
+          "options": [
+            "Black-box test technique",
+            "None of the above",
+            "Experience-based test technique",
+            "White-box test technique"
+          ],
+          "correct": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Black-box Testing Techniques",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Boundary value analysis is considered as an extension of …",
+          "options": [
+            "State transition testing",
+            "Use cases testing",
+            "Equivalence partitioning",
+            "Decision table testing"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "question": "In \"Equivalence partitioning\", partitions that contain invalid values are called …",
+          "options": [
+            "Invalid equivalence partitions",
+            "Valid equivalence partitions",
+            "Equivalence classes",
+            "Sub partitions"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 3,
+          "question": "In \"Equivalence partitioning\", the partitions are called …",
+          "options": [
+            "Valid equivalence partitions",
+            "Sub partitions",
+            "Invalid equivalence partitions",
+            "Equivalence classes"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "question": "If we have the following values to represent the equivalence partitions: 0, 3, 6, 9 Which of the following rules is applicable on the value \"9\"?",
+          "options": [
+            "Not applicable",
+            "Each value must belong to one and only one equivalence partition",
+            "Any partition may be divided into sub-partitions if required",
+            "Each value can belong to one or more equivalence partition"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "question": "The coverage of the Boundary value analysis is measured as …",
+          "options": [
+            "None of above",
+            "The number of tested equivalence partitions, divided by the total number of identified boundary test values",
+            "The number of boundary values tested, divided by the total number of identified equivalence partitions",
+            "The number of boundary values tested, divided by the total number of identified boundary test values"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 6,
+          "question": "The equivalence partitioning coverage is measured as …",
+          "options": [
+            "The number of equivalence partitions tested by at least THREE values, divided by the total number of identified equivalence partitions",
+            "The number of equivalence partitions tested by at least FOUR values, divided by the total number of identified equivalence partitions",
+            "The number of equivalence partitions tested by at least TWO values, divided by the total number of identified equivalence partitions",
+            "The number of equivalence partitions tested by at least ONE value, divided by the total number of identified equivalence partitions"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 7,
+          "question": "In \"Equivalence partitioning\", partitions that contain valid values are called ...",
+          "options": [
+            "Valid equivalence partitions",
+            "Sub partitions",
+            "Equivalence classes",
+            "Invalid equivalence partitions"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "Boundary value analysis can be applied on which of the following test levels?",
+          "options": [
+            "Unit testing, integration testing and system testing",
+            "Unit testing and integration testing",
+            "Unit testing, integration testing, system testing and acceptance testing",
+            "Unit testing only"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Decision Table and State Transition Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "For conditions with yes or no questions, the Number of table rules equals … (Note: n = number of conditions)",
+          "options": [
+            "2^n",
+            "2*n",
+            "n^2",
+            "n+2"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "question": "The common minimum coverage standard for decision table testing is …",
+          "options": [
+            "To have at least two test cases per decision rule in the table",
+            "To have at least three test cases per decision rule in the table",
+            "To have at least four test cases per decision rule in the table",
+            "To have at least one test case per decision rule in the table"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "question": "In decision table testing, each column corresponds to a ...",
+          "options": [
+            "decision coverage",
+            "Not applicable",
+            "decision rule",
+            "decision partition"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "question": "The values of the conditions and actions in decision table testing are usually shown as ............... and for each table these values may have …",
+          "options": [
+            "Discrete value only / same types",
+            "Boolean or discrete value / same types",
+            "Boolean or discrete values / different types",
+            "Discrete values only / different types"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 5,
+          "question": "When different combinations of conditions result in different outcomes, Which of the following techniques is used?",
+          "options": [
+            "Boundary-Value Analysis",
+            "Decision Coverage",
+            "Decision Table",
+            "Equivalence Partitioning"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "question": "Coverage in decision table testing is measured as ...",
+          "options": [
+            "Not applicable",
+            "The number of decision rules tested by at least one test case, divided by the total number of decision rules",
+            "The number of decision rules tested by at least two test cases, divided by the total number of decision rules",
+            "The number of decision rules tested by at least three test cases, divided by the total number of decision rules"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 7,
+          "question": "State transition coverage is measured as …",
+          "options": [
+            "The number of states or transitions tested, divided by the total number of states or transitions in the test object",
+            "Not applicable",
+            "The number of valid events, divided by the total number of states or transitions in the test object",
+            "The number of invalid events, divided by the total number of states or transitions in the test object"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "Which of the following statements is correct about \"State transition diagrams\"?",
+          "options": [
+            "A state transition diagram shows only the impossible software states",
+            "A state transition diagram shows both the possible and impossible software states",
+            "A state transition diagram shows only the possible software states",
+            "Not applicable"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "question": "Every independent transition requires a separate test case.",
+          "options": [
+            "False",
+            "True",
+            "Not applicable",
+            "Not applicable"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is true in the context of State Transition Testing?",
+          "options": [
+            "It is used to test the behavior of a system under varying inputs.",
+            "All the previous",
+            "It covers all the possible conditions.",
+            "It is a black-box technique."
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Use Case and GUI Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is a commonly used technique in use-case testing?",
+          "options": [
+            "Scenario-based testing",
+            "Stress testing",
+            "Boundary value analysis",
+            "White-box testing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 2,
+          "question": "Which of the following statements is true and which is false about \"use cases testing\"? (1) A use case can be described as interactions, activities, and preconditions; (2) Use cases can include possible variations as error handling; (3) Code is designed to exercise the defined behaviors.",
+          "options": [
+            "1 is true / 2, 3 are false",
+            "1, 2 are true / 3 is false",
+            "1, 2, 3 are true",
+            "1, 2, 3 are false"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "question": "What is a key special attribute of use-case testing?",
+          "options": [
+            "It focuses solely on unit testing.",
+            "It is only applicable during the development phase.",
+            "It emphasizes the interaction between the system and its users.",
+            "It is primarily concerned with system architecture."
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "question": "Use cases specify some behaviors that a subject can perform with ...",
+          "options": [
+            "one or more actors",
+            "Not applicable",
+            "only two actors",
+            "only one actor"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "question": "What is use-case testing?",
+          "options": [
+            "Testing individual components of a system.",
+            "Testing the performance of a system under heavy load.",
+            "Testing the functionality of a system based on scenarios that represent real-world usage.",
+            "Testing the security features of a software application."
+          ],
+          "correct": 2
+        },
+        {
+          "id": 6,
+          "question": "What is a common challenge in GUI testing?",
+          "options": [
+            "Limited programming languages",
+            "Lack of user feedback",
+            "Rapid UI changes",
+            "High cost of software"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "question": "What is a recommended solution for managing frequent UI changes in GUI testing?",
+          "options": [
+            "Implementing a robust test automation framework",
+            "Reducing testing frequency",
+            "Using less complex UI",
+            "Increasing team size"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is typically considered a common UI bug in GUI testing?",
+          "options": [
+            "Database connectivity problems",
+            "Server-side errors",
+            "Performance issues in the backend",
+            "Alignment and layout issues in the interface"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "question": "What is a solution to the challenge of ensuring complete test coverage in GUI testing?",
+          "options": [
+            "Developing a comprehensive test strategy",
+            "Increasing the number of testers",
+            "Limiting the testing to critical functions only",
+            "Reducing the scope of testing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 10,
+          "question": "In GUI testing, what is a challenge associated with test data and environment setup?",
+          "options": [
+            "High costs of software licenses",
+            "Difficulty in creating and managing test data",
+            "Limited access to testing tools",
+            "Inconsistent team skill levels"
+          ],
+          "correct": 1
+        }
+      ]
+    }
+  ]
+}
