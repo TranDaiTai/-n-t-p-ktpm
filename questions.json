@@ -1358,8 +1358,62 @@
             "It covers all the possible conditions.",
             "It is a black-box technique."
           ],
-          "correct": 1,
-          "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'All the previous' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'It is used to test the behavior of a system under varying inputs.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'It covers all the possible conditions.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'It is a black-box technique.' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
+          "correct": 1
+        },
+        {
+          "id": 11,
+          "question": "Given the following state model of a battery charger software. Which of the following sequences of transitions provides the highest level of transition coverage for the model?",
+          "options": [
+            "HIGH -> CHARGE -> LOW -> CHARGE -> TRICKLE -> WAIT -> TRICKLE -> WAIT -> TRICKLE",
+            "OFF -> WAIT -> OFF -> WAIT -> TRICKLE -> CHARGE -> HIGH -> CHARGE -> LOW",
+            "WAIT -> TRICKLE -> WAIT -> OFF -> WAIT -> TRICKLE -> CHARGE -> LOW -> CHARGE",
+            "WAIT -> TRICKLE -> CHARGE -> HIGH -> CHARGE -> TRICKLE -> WAIT -> OFF -> WAIT"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 12,
+          "question": "A \"State transition table\" shows ...",
+          "options": [
+            "Invalid transitions only",
+            "Not applicable (since only three options are provided for this question)",
+            "Valid and invalid transitions",
+            "Valid transitions only"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 13,
+          "question": "Given the following state transition. Which of the following series of state transitions below will provide 100% 0-switch coverage?",
+          "options": [
+            "ABEBCD",
+            "ABEBCFD",
+            "ABCFFD",
+            "ABEBCFF"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 14,
+          "question": "Based on the given State Transition Diagram of a switch. Which of the following test case is invalid?",
+          "options": [
+            "ON to OFF",
+            "ON to FAULT",
+            "FAULT to ON",
+            "OFF to ON"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 15,
+          "question": "It is the state in which you can't move from it to another state.",
+          "options": [
+            "Start state",
+            "Transition state",
+            "Alive state",
+            "Dead state"
+          ],
+          "correct": 3
         }
       ]
     },
@@ -1600,6 +1654,459 @@
             "Khi cần kiểm thử hiệu suất của cơ sở dữ liệu",
             "Khi muốn kiểm thử các chức năng của cơ sở dữ liệu",
             "Khi muốn thử nghiệm toàn bộ các tính năng của ứng dụng"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "API Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Bạn được yêu cầu thiết kế một tập hợp kiểm thử để kiểm tra tính bảo mật của một API RESTful. Hãy chọn những phương pháp nào sẽ phù hợp nhất?",
+          "options": [
+            "Gửi nhiều yêu cầu liên tiếp để kiểm tra khả năng chịu tải của API",
+            "Thử gửi yêu cầu mà không có token hoặc với token không hợp lệ để kiểm tra xác thực",
+            "Tạo yêu cầu GET và kiểm tra tính hợp lệ của dữ liệu",
+            "Kiểm tra hợp đồng (contract) để đảm bảo API trả về đúng cấu trúc JSON"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 2,
+          "question": "Bạn được yêu cầu kiểm thử một API cho phép người dùng đăng nhập vào hệ thống. Yêu cầu phản hồi là mã trạng thái \"200 OK\" và một trường JSON chứa token truy cập. Bạn sẽ viết một kiểm thử cơ bản trong Postman như thế nào?",
+          "options": [
+            "Chỉ kiểm tra mã trạng thái mà không kiểm tra dữ liệu phản hồi",
+            "Gửi yêu cầu mà không cần quan tâm đến mã trạng thái",
+            "Gửi yêu cầu và kiểm tra xem mã trạng thái là 404 Not Found",
+            "Gửi yêu cầu và kiểm tra mã trạng thái là 200 OK cùng với trường access_token trong phần phản hồi"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 3,
+          "question": "Mã trạng thái HTTP \"201 Created\" có nghĩa là gì?",
+          "options": [
+            "Yêu cầu đã được nhận và xử lý thành công, nhưng không có dữ liệu phản hồi",
+            "Một tài nguyên mới đã được tạo thành công",
+            "Người dùng không có quyền truy cập vào tài nguyên",
+            "Yêu cầu không hợp lệ và cần phải chỉnh sửa"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 4,
+          "question": "API Testing là gì?",
+          "options": [
+            "Kiểm tra hiệu suất của cơ sở dữ liệu",
+            "Kiểm tra cách các hệ thống giao tiếp qua các API",
+            "Kiểm tra mối quan hệ giữa các ứng dụng",
+            "Kiểm tra chức năng của giao diện người dùng"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "question": "Trong kiểm thử API, phương thức HTTP nào dùng để lấy dữ liệu từ API?",
+          "options": [
+            "PUT",
+            "GET",
+            "DELETE",
+            "POST"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "question": "Bạn vừa kiểm thử một API để tìm lỗi và thấy rằng API trả về mã trạng thái 500 Internal Server Error khi gửi yêu cầu với dữ liệu không hợp lệ. Đánh giá nào sau đây là đúng?",
+          "options": [
+            "API nên trả về lỗi chi tiết hơn, chẳng hạn như mã \"400 Bad Request\" để mô tả chính xác nguyên nhân lỗi",
+            "API nên trả về mã 401 Unauthorized",
+            "API hoạt động đúng vì trả về lỗi khi nhận dữ liệu không hợp lệ",
+            "API có thể bỏ qua lỗi và trả về mã 200 OK"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 7,
+          "question": "Khi nhận được mã trạng thái 401 Unauthorized từ một API, điều này có ý nghĩa gì?",
+          "options": [
+            "Người dùng không có quyền truy cập vào API do không có token hoặc token không hợp lệ",
+            "Tài nguyên mà API yêu cầu không tồn tại",
+            "API không thể xử lý yêu cầu",
+            "Dữ liệu đã được tạo thành công nhưng không có phản hồi"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 8,
+          "question": "Một API trả về mã trạng thái 200 OK khi xảy ra lỗi nội bộ thay vì 500 Internal Server Error. Bạn đánh giá cách xử lý này như thế nào?",
+          "options": [
+            "Sai, vì mã trạng thái 200 OK có thể gây hiểu nhầm cho người dùng rằng yêu cầu đã thành công, trong khi thực tế có lỗi xảy ra",
+            "Sai, vì mã trạng thái 200 OK chỉ nên sử dụng khi yêu cầu thực sự được xử lý thành công mà không có lỗi",
+            "Đúng, vì API luôn cần trả về 200 OK để giữ tính nhất quán",
+            "Đúng, vì mã trạng thái 200 OK giúp tránh việc tiết lộ thông tin nhạy cảm về lỗi hệ thống"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 9,
+          "question": "Tại sao chúng ta nên thực hiện Security Testing trong API Testing?",
+          "options": [
+            "Để xác định lỗi trong giao diện người dùng",
+            "Để kiểm tra API có thể xử lý bao nhiêu yêu cầu mỗi giây",
+            "Để đảm bảo API không có lỗ hổng bảo mật, giúp ngăn ngừa các cuộc tấn công",
+            "Để đảm bảo API trả về đúng kết quả"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "White-box Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Branch/Decision Coverage in white box testing?",
+          "options": [
+            "Testing the software's database connections",
+            "Covering all possible input combinations in the program",
+            "Evaluating each decision point in the program for TRUE and FALSE outcomes",
+            "Ensuring the software complies with legal requirements"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "question": "What is Statement Coverage in white box testing?",
+          "options": [
+            "Ensuring every statement in the code is executed at least once",
+            "Ensuring every function in the program is called",
+            "Testing each decision point in the program",
+            "Reviewing the code for syntax errors"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 3,
+          "question": "Data Flow Testing in white box testing primarily focuses on:",
+          "options": [
+            "Network data transfer speeds",
+            "Database management efficiency",
+            "Paths in the program from the assignment to the use of a variable",
+            "Data encryption methods"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of a Control Flow Graph in white box testing?",
+          "options": [
+            "To model the execution paths in a program",
+            "To track the software's performance metrics",
+            "To document user requirements",
+            "To illustrate the software's user interface layout"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "question": "What is the primary focus of white box testing?",
+          "options": [
+            "Testing the graphical user interface of the software",
+            "Testing based on the internal code structure and implementation",
+            "Testing based on external expectations of the software functionality",
+            "Testing conducted by the end-users"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "question": "Which of the following is not a technique used in white box testing?",
+          "options": [
+            "Path Coverage",
+            "Data Flow Testing",
+            "Fuzz Testing",
+            "Control Flow Testing"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "question": "What does Control Flow Testing in white box testing focus on?",
+          "options": [
+            "The response time of the software",
+            "The compatibility with different operating systems",
+            "The execution paths through a module of program code",
+            "The visual aspects of the software"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 8,
+          "question": "Which level of system development can white box testing be applied to?",
+          "options": [
+            "Only system testing",
+            "All levels - unit, integration, and system",
+            "Only integration testing",
+            "Only unit testing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "question": "What is a key characteristic of Test Driven Development (TDD)?",
+          "options": [
+            "Tests are written before the code",
+            "Only critical classes in the application are tested",
+            "Tests are written after the code is developed",
+            "Integration testing is not necessary in TDD"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 10,
+          "question": "What does Code Coverage in white box testing measure?",
+          "options": [
+            "The time taken to execute the code",
+            "The number of bugs in the code",
+            "The percentage of the code that has been tested",
+            "The cost of developing the code"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Security Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the term \"XSS\" stand for in the context of Security Testing?",
+          "options": [
+            "External System Security",
+            "Xtra Security Services",
+            "XML Security Standard",
+            "Cross-Site Scripting"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 2,
+          "question": "What is the role of a security auditor in Security Testing?",
+          "options": [
+            "To write test cases",
+            "To simulate malicious attacks on the system",
+            "To review and analyze the system for security flaws",
+            "To execute automated scripts"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is NOT a type of Security Testing?",
+          "options": [
+            "Load Testing",
+            "Penetration Testing",
+            "Authentication Testing",
+            "Security Auditing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "Which of the following is a common vulnerability that Security Testing aims to detect?",
+          "options": [
+            "SQL injection",
+            "User interface layout issues",
+            "Software design patterns",
+            "Code comments"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of a security risk assessment in Security Testing?",
+          "options": [
+            "To identify potential security threats and their impact",
+            "To measure the usability of the software",
+            "To assess the availability of technical support",
+            "To create performance benchmarks for the system"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "question": "What is the primary goal of Security Testing in software development?",
+          "options": [
+            "To uncover vulnerabilities and weaknesses in the system",
+            "To identify performance bottlenecks",
+            "To validate the correctness of the code",
+            "To ensure the software is user-friendly"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 7,
+          "question": "What is the main purpose of Penetration Testing?",
+          "options": [
+            "To validate the user interface",
+            "To assess the performance of the software",
+            "To verify data integrity",
+            "To simulate a real-world attack on the system"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 8,
+          "question": "Which phase of the software development life cycle is most appropriate for conducting Security Testing?",
+          "options": [
+            "Requirements gathering",
+            "Coding and implementation",
+            "Testing",
+            "Maintenance and support"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 9,
+          "question": "In Security Testing, what does the term \"Denial of Service (DoS)\" refer to?",
+          "options": [
+            "Malicious software installation",
+            "Unauthorized access to data",
+            "Cross-site scripting attacks",
+            "Overloading a system to make it unavailable"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "question": "Which security testing technique involves analyzing the application's source code for vulnerabilities?",
+          "options": [
+            "White-box testing",
+            "Gray-box testing",
+            "Penetration testing",
+            "Black-box testing"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Automation Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which factor is crucial when selecting an automation testing tool?",
+          "options": [
+            "The color of the tool's interface",
+            "The name of the tool",
+            "Compatibility with the software development environment",
+            "The author of the tool"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "question": "What is an important feature of a good automation testing tool regarding usability?",
+          "options": [
+            "An interface with no instructions",
+            "A user-friendly interface",
+            "A complex interface",
+            "An interface in a strange/foreign language"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 3,
+          "question": "When considering test cases to automate, which factor is important?",
+          "options": [
+            "The color of the test case",
+            "The programming language of the test case",
+            "The name of the test case",
+            "The time-consuming nature of the test case"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 4,
+          "question": "What should be considered about the security aspect of an automation testing tool?",
+          "options": [
+            "Security is not a concern for testing tools",
+            "The tool should have adequate security measures",
+            "Security should be handled by other software",
+            "The tool should have minimal security measures"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 5,
+          "question": "What is a solution for the problem of insufficient understanding of the application under test?",
+          "options": [
+            "Conduct exploratory testing on the application",
+            "Ignore the requirements and specifications",
+            "Avoid collaboration with the development team",
+            "Use only manual testing methods"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 6,
+          "question": "What is a common problem leading to the failure of Test Automation?",
+          "options": [
+            "Too much collaboration between teams",
+            "Excessive use of manual testing",
+            "Lack of proper planning and strategy",
+            "Overreliance on cloud environments"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 7,
+          "question": "What is the main purpose of Automation Testing?",
+          "options": [
+            "To manually test software applications",
+            "To design new software applications",
+            "To debug software applications",
+            "To automate the process of testing software applications"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 8,
+          "question": "What is the benefit of using cloud environments in test automation?",
+          "options": [
+            "It requires investment in physical machines",
+            "It increases the cost of testing",
+            "It limits the range of browsers and devices for testing",
+            "It allows automated tests across a wide range of browsers and devices"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 9,
+          "question": "Why is collaboration between development and testing teams important in test automation?",
+          "options": [
+            "To ensure the testing process is integrated into development",
+            "To define roles unclearly",
+            "To use different toolsets",
+            "To separate the testing process from development"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is a reason for needing Automation Testing?",
+          "options": [
+            "To reduce the time required for testing",
+            "To increase the cost of testing",
+            "To eliminate the need for software development",
+            "To avoid using testing tools"
           ],
           "correct": 0
         }

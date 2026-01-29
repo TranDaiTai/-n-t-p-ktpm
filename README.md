@@ -5,7 +5,7 @@
 ### Nội dung hiện có
 
 #### 1. **questions.json** - Ngân hàng câu hỏi
-- **13 danh mục** (Categories):
+- **18 danh mục** (Categories):
   1. Fundamentals of Software Testing (10 câu)
   2. Software Testing Life Cycle - STLC (10 câu)
   3. Testing Levels and Types (10 câu)
@@ -17,10 +17,15 @@
   9. Bug Reporting (10 câu)
   10. Testing Approaches and Techniques (5 câu)
   11. Black-box Testing Techniques (8 câu)
-  12. Decision Table and State Transition Testing (10 câu)
+  12. Decision Table and State Transition Testing (16 câu) 📈
   13. Use Case and GUI Testing (10 câu)
+  14. **Database Testing** (10 câu) ✨ **MỚI**
+  15. **API Testing** (9 câu) ✨ **MỚI**
+  16. **White-box Testing** (10 câu) ✨ **MỚI**
+  17. **Security Testing** (10 câu) ✨ **MỚI**
+  18. **Automation Testing** (10 câu) ✨ **MỚI**
 
-- **Tổng cộng: 119 câu hỏi trắc nghiệm**
+- **Tổng cộng: 173 câu hỏi trắc nghiệm**
 - **Định dạng**: JSON với các trường: question, options (A/B/C/D), correct answer index
 
 **⚠️ Lưu ý:** Giải thích chi tiết (Explanations) hiện tại **Rat dom Co nhu khong co**. File chỉ bao gồm câu hỏi và đáp án đơn giản.
@@ -65,6 +70,11 @@
 - Black-box Testing Techniques (EP, BVA, Decision Table)
 - State Transition Testing
 - Use Case & GUI Testing
+- **Database Testing** (Constraints, DBUnit, Data Integrity, Query Performance, Foreign Keys)
+- **API Testing** (REST, HTTP Methods, Status Codes, Security, Authentication)
+- **White-box Testing** (Code Coverage, Statement/Branch/Decision Coverage, Control Flow, Data Flow, Path Coverage, TDD)
+- **Security Testing** (XSS, Penetration Testing, SQL Injection, DoS, Authentication, Authorization, Vulnerability Assessment)
+- **Automation Testing** ✨ (Tool Selection, Test Case Prioritization, Cloud Environments, Planning & Strategy, Development-Testing Collaboration)
 
 ---
 
