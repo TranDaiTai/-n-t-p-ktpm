@@ -1488,6 +1488,122 @@
           "explanation": "🎯 KHÁI NIỆM:\n\n✓ TẠI SAO ĐÚNG (Đáp án B):\n'Difficulty in creating and managing test data' là đáp án chính xác vì nó phản ánh định nghĩa và khái niệm chính xác về chủ đề này.\n\n✗ TẠI SAO CÁC ĐÁP ÁN KHÁC SAI:\nA. 'High costs of software licenses' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nC. 'Limited access to testing tools' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\nD. 'Inconsistent team skill levels' - không đúng vì nó không phù hợp với khái niệm đang hỏi.\n"
         }
       ]
+    },
+    {
+      "id": 14,
+      "name": "Database Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Trong Database Testing, tại sao việc kiểm thử các ràng buộc (constraints) như khóa chính, khóa ngoại lại quan trọng?",
+          "options": [
+            "Để tạo giao diện thân thiện với người dùng",
+            "Để tăng tốc độ truy vấn",
+            "Để bảo đảm rằng không có dữ liệu trùng lặp hoặc lỗi logic trong cơ sở dữ liệu",
+            "Để tối ưu hóa hiệu suất của ứng dụng"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 2,
+          "question": "Công cụ nào sau đây thường được sử dụng cho Database Testing trong Java?",
+          "options": [
+            "DBUnit",
+            "JMeter",
+            "Selenium",
+            "JUnit"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 3,
+          "question": "Database Testing chủ yếu kiểm tra điều gì trong cơ sở dữ liệu?",
+          "options": [
+            "Tính chính xác, toàn vẹn và hiệu suất của dữ liệu",
+            "Mã nguồn của ứng dụng",
+            "Chỉ hiệu suất của cơ sở dữ liệu",
+            "Giao diện của cơ sở dữ liệu"
+          ],
+          "correct": 0
+        },
+        {
+          "id": 4,
+          "question": "Khi gặp lỗi \"foreign key constraint violation,\" bạn nên làm gì trước tiên?",
+          "options": [
+            "Thêm thêm dữ liệu ngẫu nhiên vào bảng",
+            "Bỏ qua lỗi và tiếp tục kiểm thử",
+            "Xóa tất cả các bảng và tạo lại từ đầu",
+            "Kiểm tra các ràng buộc khóa ngoại giữa các bảng"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 5,
+          "question": "Điều gì sẽ xảy ra nếu một khóa ngoại không được thiết lập đúng trong cơ sở dữ liệu?",
+          "options": [
+            "Dữ liệu sẽ luôn được nhập chính xác",
+            "Có thể có dữ liệu lỗi hoặc trùng lặp giữa các bảng",
+            "Truy vấn sẽ chạy nhanh hơn",
+            "Không có ảnh hưởng gì đến cơ sở dữ liệu"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 6,
+          "question": "Bạn muốn kiểm thử tính đúng đắn của dữ liệu trong một bảng sau khi thêm một bản ghi mới. Bước nào sau đây là hợp lý nhất?",
+          "options": [
+            "Kiểm thử tính năng của giao diện người dùng",
+            "Tối ưu hóa truy vấn để chạy nhanh hơn",
+            "Xóa toàn bộ dữ liệu trước khi kiểm thử",
+            "Chạy một truy vấn để xác minh bản ghi mới có tồn tại"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 7,
+          "question": "Khi một truy vấn chạy quá chậm, điều nào sau đây là cách tốt nhất để cải thiện hiệu suất?",
+          "options": [
+            "Tăng kích thước bảng",
+            "Bỏ qua kiểm thử để tiết kiệm thời gian",
+            "Chỉ thêm chỉ mục vào các cột được sử dụng thường xuyên trong truy vấn",
+            "Thêm nhiều chỉ mục (index) vào tất cả các cột của bảng"
+          ],
+          "correct": 2
+        },
+        {
+          "id": 8,
+          "question": "Mục tiêu chính của Database Integrity Testing là gì?",
+          "options": [
+            "Đảm bảo tốc độ truy vấn cao nhất",
+            "Đảm bảo rằng dữ liệu trong cơ sở dữ liệu không bị lỗi hay vi phạm các ràng buộc",
+            "Đảm bảo dữ liệu trong các bảng có thể được cập nhật tự động",
+            "Đảm bảo tính chính xác của giao diện người dùng"
+          ],
+          "correct": 1
+        },
+        {
+          "id": 9,
+          "question": "Khi kiểm thử một cơ sở dữ liệu lớn có nhiều bảng, cách tốt nhất để đảm bảo kiểm tra tính chính xác của dữ liệu là gì?",
+          "options": [
+            "Chạy từng trường hợp kiểm thử bằng tay cho từng bảng",
+            "Chỉ kiểm thử trên bảng chính",
+            "Thực hiện kiểm thử đơn lẻ với giao diện người dùng",
+            "Sử dụng một bộ dữ liệu giả lập và công cụ kiểm thử tự động"
+          ],
+          "correct": 3
+        },
+        {
+          "id": 10,
+          "question": "Khi nào nên sử dụng Database Unit Testing thay vì Functional Database Testing?",
+          "options": [
+            "Khi cần kiểm tra tính nhất quán của dữ liệu mà không dựa vào giao diện người dùng",
+            "Khi cần kiểm thử hiệu suất của cơ sở dữ liệu",
+            "Khi muốn kiểm thử các chức năng của cơ sở dữ liệu",
+            "Khi muốn thử nghiệm toàn bộ các tính năng của ứng dụng"
+          ],
+          "correct": 0
+        }
+      ]
     }
   ]
 }
